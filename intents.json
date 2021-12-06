@@ -1,0 +1,2491 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": ["halo","hai","hi","hello","halo","hi mbc","hai mbc","mbc bot"],    
+        "responses": ["Halo, selamat Datang di MBCLab, apa yang ingin anda tanyakan?",
+        "Hi, selamat datang di MBCLab, ada yang ingin ditanyakan?"],
+        "context_set" : ""
+    },
+    {
+        "tag": "end",
+        "patterns": ["terima kasih","thanks","bye","terimakasih","selesai","end"],
+        "responses": ["Terimakasih sudah mengunjungi MBC, sampai bertemu lagi"],
+        "context_set" : ""
+    },
+    {
+        "tag": "arti",
+        "patterns": ["mbc","apa itu mbc"],
+        "responses": ["MBCLab adalah salah satu lab diatas naungan KK NCM yang berfokus pada Multimedia Application, Big Data, dan Cyber Security"],
+        "context_set" : ""
+    },
+    {
+        "tag": "asal mbc",
+        "patterns": ["dari universitas mana mbclab","dimana mbc lab"],
+        "responses": ["MBCLab sebuah Lab yang berasal dari Telkom University Bandung"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kapan",
+        "patterns": ["kapan mbclab berdiri","kapan mbclab terbentuk","kapan mbclab didirikan"],
+        "responses": ["MBCLab berdiri pada tanggal 4 Oktober 2019"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "divisi mbc",
+        "patterns": ["divisi lab","apa saja divisi dalam mbc","divisi"],
+        "responses": ["MBCLab memiliki 4 divisi yaitu Cyber Security, Big Data, Multimedia (GIS & Game Tech)"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "koordinator cyber security",
+        "patterns": ["siapa koordinator divisi cyber security","koordinator divisi cyber security","koordinator cyber security"],
+        "responses": ["Koordinator Divisi Cyber Security: Muhammad Rizki Anwar"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "koordinator big data",
+        "patterns": ["siapa koordinator divisi big data","koordinator divisi big data","koordinator big data"],
+        "responses": ["Koordinator Divisi Big Data: Enrico Megantara (1101184025)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "koordinator gis",
+        "patterns": ["siapa koordinator divisi gis","koordinator divisi gis","koordinator gis"],
+        "responses": ["Koordinator Divisi GIS : Aminah Indahsari Marsuki (1101184077)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "koordinator game tech",
+        "patterns": ["koordinator divisi game tech","koordinator divisi gametech","siapa koordinator divisi gametech"],
+        "responses": ["Koordinator Divisi Game Tech : Akmal Rusdy Prasetyo (1101184015)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "koordinator asisten",
+        "patterns": ["koordinator asisten","siapa koordinator asisten mbclab","koordinator asisten mbclab","siapa koordinator asisten"],
+        "responses": ["Koordinator Asisten: Ilyas Adiyasa (1101184270)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "sekretaris",
+        "patterns": ["siapa sekretaris mbclab","sekretaris mbclab","sekretaris mbc"],
+        "responses": ["Sekretaris: Pietha Tiara Lingga Dewi (1101184503)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "bendahara",
+        "patterns": ["siapa bendahara mbclab","bendahara mbclab","bendahara mbc"],
+        "responses": ["Bendahara 1: Cheril Erlita Zuliarty (1101180060) \n Bendahara 2: Shalsabila Azzahra (1101184234)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "media mbc",
+        "patterns": ["mbc media","siapa mbc media"],
+        "responses": ["MBC Media: Dimas Fadilah Permana R (1101184453)"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "operational",
+        "patterns": ["siapa operational maintenance","operational maintenance","operational maintenance mbclab","siapa operational maintenance mbclab"],
+        "responses": ["Operational Maintenance MBCLab: Muhammad Fajar F"],
+        "context_set" : ""
+    },
+    {
+        "tag": "big data",
+        "patterns": ["apa itu divisi big data","apa itu divisi bigdata"],
+        "responses": ["Divisi Big Data merupakan Divisi riset yang membahas dan meriset mengenai perkembangan data mining, data analysis, machine learning & dasar-dasar AI"],
+        "context_set" : ""
+    },
+    {
+        "tag": "cyber security",
+        "patterns": ["apa itu divisi cyber security"],
+        "responses": ["Divisi Cyber Security adalah sebuah divisi yang mempelajari proses perlindungan sistem, data, jaringan, dan program dari ancaman atau serangan digital"],
+        "context_set" : ""
+    },
+    {
+        "tag": "gis",
+        "patterns": ["apa itu divisi gis"],
+        "responses": ["Divisi GIS adalah sebuah divisi yang mempelajari sistem informasi khusus yang mengelola data, yang dimana data itu memiliki informasi spasial (bereferensi keruangan)"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "game tech",
+        "patterns": ["apa itu divisi game tech","apa itu divisi gametech"],
+        "responses": ["Divisi Game Tech adalah Teknologi Game yang mempelajari tentang bagaimana sebuah game itu dibuat hingga bisa dimainkan oleh orang banyak, Dimana kita akan belaja mengembangkan teknologi pembuatan game mulai dari merancang cerita yang ada pada game, merancang sistem perlawanan, merancang model karakter, membuat animasi dan storyboard, merancang user interface, melakukan tugas-tugas programming, hingga proses produksi game"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "anggota cyber security",
+        "patterns": ["siapa anggota cyber security"],
+        "responses": ["Anggota Divisi Cyber Security:\n 1. Muhammad Satya Adhi Wicaksana \n 2. Brigitha Zella Viesta Aquillara \n 3. Nasrullah Pandu Dewantara \n 4. Pietha Tiara Lingga Dewi \n 5. Winda Ezranata Putri \n 6. Muhammad Bagas Arya Darmawan \n 7. Baiq Yuniar Yustiarini \n 8. Putri Ayu Rezeki"],
+        "context_set" : ""
+    },
+    {
+        "tag": "anggota big data",
+        "patterns": ["anggota divisi big data","siapa anggota divisi big data","anggota divisi bigdata","anggota bigdata"],
+        "responses": ["Anggota Divisi Big Data: \n 1. Ilyas Adiyasa \n 2. Muhammad Buushiri \n 3. Dimas Fadilah Permana R \n 4. Muhammad Raihan"],
+        "context_set" : ""
+    },
+    {
+        "tag": "anggota gis",
+        "patterns": ["anggota divisi gis","siapa anggota divisi gis"],
+        "responses": ["Anggota Divisi GIS: \n 1. Farah Nahdhiyah Wijayanti \n 2. Myra Tresno Karimah \n 3. M. Adnan Pramudito \n 4. Michelle Octavia Yolanda Sari"],
+        "context_set" : ""
+    },
+    {
+        "tag": "anggota game tech",
+        "patterns": ["anggota divisi gametech","siapa anggota divisi game tech","anggota gametech"],
+        "responses": ["Anggota Divisi Game tech: \n 1. Ikram Andika Ukar \n 2. Shalsabila Azzahra \n 3. Cheril Erlita Zuliarty \n 4. Atikah Nadilah \n 5. Akhlisiah Karima S \n 6. Muhammad Fajar F"],
+        "context_set" : ""
+    },
+    {
+        "tag": "email",
+        "patterns": ["email mbc","email","email mbclab","apa email mbc","email mbc lab"],
+        "responses": ["E-Mail MBCLab : laboratory.mbc@gmail.com "],
+        "context_set" : ""
+    },
+    {
+        "tag": "line",
+        "patterns": ["line mbc","line mbclab","line mbc lab","apa line mbclab","apa email mbc lab"],
+        "responses": ["Line MBCLab : @sok8073r"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "gedung",
+        "patterns": ["dimana gedung mbc","dimana gedung mbclab","lantai berapa mbclab","lantai berapa mbc"],
+        "responses": ["Gedung Arakula, lantai 2 ruang 0.301"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "jargon",
+        "patterns": ["jargon mbc","apa jargon mbc","bagaimana jargon mbc"],
+        "responses": ["We Attack, We Portect"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "fakultas mbc",
+        "patterns": ["dari fakultas mana mbclab","dari fakultas mana mbc lab","dari fakultas mana mbc","fakultas mbc"],
+        "responses": ["MBCLab adalah Lab dari Fakultas Teknik Elektro"],
+        "context_set" : ""
+    },
+    {
+        "tag": "riset cyber security",
+        "patterns": ["riset cyber security","apa riset divisi cyber security","riset divisi cyber"],
+        "responses": ["Smart Mosque"],
+        "context_set" : ""
+    },
+    {
+        "tag": "lomba cyber security",
+        "patterns": ["lomba cyber security","lomba cyber","apa lomba yang diikuti cyber secuity"],
+        "responses": ["Lomba Yang Diikuti Cyber Security: CTF"],
+        "context_set" : ""
+    },
+    {
+        "tag": "ctf",
+        "patterns": ["apa itu ctf","ctf"],
+        "responses": ["CTF (Capture the Flag) adalah adalah salah satu jenis dari kompetisi hacking yang dimana mengharuskan seorang / tim untuk mengambil sebuah file / string yang sudah disembunyikan sistem yang dimana disebut dengan istilah 'Flag'."],
+        "context_set" : ""
+    },
+    {
+        "tag": "kriptografi",
+        "patterns": ["apa itu kriptografi"],
+        "responses": ["Kriptografi adalah suatu ilmu tentang teknik enkripsi naskah asli (plaintex) yang diacak memanfaatkan sebuah kunci enkripsi sehingga naskah asli tersebut berubah menjadi naskah yang sulit dibaca (chipertext) oleh pihak yang tidak memiliki kunci dekripsi"],
+        "context_set" : ""
+    },
+    {
+        "tag": "riset big data",
+        "patterns": ["riset divisi bigdata","riset bigdata","riset divisi big data"],
+        "responses": ["Belum Ada"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "machine learning",
+        "patterns": ["apa itu machine learning"],
+        "responses": ["Machine Learning adalah mesin yang dikembangkan untuk bisa belajar dengan sendirinya tanpa arahan dari penggunanya."],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode ikram",
+        "patterns": ["kode asisten ikram","apa kode asisten ikram","IKI"],
+        "responses": ["kode asisten: Ikram Andika Ukar (IKI)"],
+        "context_set" : ""
+    },
+    {   "tag" : "kode cheril",
+        "patterns":["kode asisten cheril","apa kode asisten cheril","CER"],
+        "responses": ["Kode Asisten: Cheril Erlita Zuliarty (CER)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode akhlisiah",
+        "patterns": ["kode asisten akhlisiah","apa kode asisten akhlisiah","ALS"],
+        "responses": ["Kode Asisten: Akhlisiah Karima S (ALS)"],
+        "context_set" : ""
+    },
+    {   
+        "tag": "kode shalsabila",
+        "patterns": ["kode asisten shalsabila","apa kode asisten shalsabila","CAA"],
+        "responses": ["Kode Asisten: Shalsabila Azzahra (CAA)"],
+        "context_set" : ""
+    },
+    {
+        "tag": ["kode atikah"],
+        "patterns": ["kode asisten atikah","apa kode asisten atikah","TIE"],
+        "responses": ["Kode Asisten: Atikah Nadilah (TIE)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode fajar",
+        "patterns" : ["kode asisten fajar","apa kode asisten fajar","FBI"],
+        "responses" : ["Kode Asisten : Muhammad Fajar Firdiansyah (FBI)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode akmal",
+        "patterns": ["kode asisten akmal","apa kode asisten akmal","RDY"],
+        "responses": ["Kode Asisten: Akmal Rusdy Prasetyo (RDY)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode rizki",
+        "patterns": ["kode asisten rizki", "apa kode asisten rizki","ARM"],
+        "responses" : ["Kode Asisten : Muhammad Rizky Anwar (ARM)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode satya",
+        "patterns": ["kode asisten satya","apa kode asisten satya","SAW"],
+        "responses" : ["Kode Asisten : Muhammad Satya Adhi Wicaksana (SAW)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode tiara",
+        "patterns" : ["kode asisten tiara","apa kode asisten tiara","ARA"],
+        "responses" : ["Kode Asisten : Pietha Tiara Lingga Dewi (ARA)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode bagas",
+        "patterns" : ["kode asisten bagas","apa kode asisten bagas","MAD"],
+        "responses" : ["Kode Asisten: Muhammad Muhammad Bagas Arya Darmawan (MAD)"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kode arul",
+        "patterns" : ["kode asisten arul","apa kode asisten arul","NSR"],
+        "responses" : ["Kode Asisten : Nasrullah Pandu Dewantara (NSR)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode raihan",
+        "patterns" : ["kode asisten raihan","apa kode asisten raihan","LOS"],
+        "responses" : ["Kode Asisten : Muhammad Raihan (LOS)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode dimas",
+        "patterns" : ["kode asisten dimas","apa kode asisten dimas","FAD"],
+        "responses" : ["Kode Asisten : Dimas Fadillah Permana R (FAD)"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kode ilyas",
+        "patterns" : ["kode asisten ilyas","apa kode asisten ilyas","ILY"],
+        "responses" : ["Kode Asisten : Ilyas Adiyas (ILY)"],
+        "context_set" : ""
+    },
+    { 
+        "tag": "kode enrico",
+        "patterns" : ["kode asisten enrico","apa kode asisten enrico","ICO"],
+        "responses" : ["Kode Asisten : Enrico Megantara (ICO)"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kode buushiri",
+        "patterns" : ["kode asisten buushiri","apa kode asisten buushiri","BRI"],
+        "responses" : ["Kode Asisten : Muhammad Buushiri (BRI)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode adnan",
+        "patterns" : ["kode asisten adnan","apa kode asisten adnan","MAP"],
+        "responses" : ["Kode Asisten : Muhammad Adnan Pramudito (MAP)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode farah",
+        "patterns" : ["kode asisten farah","apa kode asisten farah","FRW"],
+        "responses" : ["Kode Asisten : Farah Nahdhiyah Wijayanti (FRW)"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kode michelle",
+        "patterns" : ["kode asisten michelle","apa kode asisten michelle","CEL"],
+        "responses" : ["Kode Asisten : Michelle Octavia Yolanda Sari (CEL)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode indah",
+        "patterns" : ["kode asisten indah","apa kode asisten indah","IND"],
+        "responses" : ["Kode Asisten : Aminah Indahsari Marsuki (IND)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode myra",
+        "patterns" : ["kode asisten myra","apa kode asisten myra","MXR"],
+        "responses" : ["Kode Asisten : Myra Tresno Karimah (MXR)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode brigitha",
+        "patterns" : ["kode asisten brigitha","apa kode asisten brigitha","GIT"],
+        "responses" : ["Kode Asisten : Brigitha Zella Viesta Aquillara (GIT)"], 
+        "context_set" : ""
+    },
+    {
+        "tag" : "kode winda",
+        "patterns" : ["kode asisten winda","apa kode asisten winda","WIN"],
+        "responses" : ["Kode Asisten : Winda Ezranata Putri (WIN)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode baiq",
+        "patterns"  : ["kode asisten baiq","apa kode asisten baiq","RIN"],
+        "responses" : ["Kode Asisten : Baiq Yuniar Yustiarini (RIN)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kode putri",
+        "patterns" : ["kode asistes putri","apa kode asisten putri","UUT"],
+        "responses" : ["Kode Asisten : Putri Ayu Rezeki (UUT)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "smart mosque",
+        "patterns" : ["apa itu smart mosque"],
+        "responses" : ["Smart Mosque adalah sebuha project yang terdiri dari alat IoT dan juga aplikasi. Jadi sistem dari smart mosque sendiri yaitu menghubungkan alat IoT dengan aplikasi. Alat IoT tadi dikoneksikan pada perangkat masjid yang akan terkoneksi oleh aplikasi. Untuk aplikasinya terdapat fitur Profil pengguna, penggunaan air, penggunaan listrik, dan total tagihan. Aplikasi ini hanya digunakan oleh pengurus masjid untuk memonitor keadaan masjid."],
+        "context_set" : ""
+    },
+    {
+        "tag" : "riset gis",
+        "patterns" : ["riset yang dijalankan gis","riset yang dijalankan divisi gis"],
+        "responses" : ["Riset gis : Majalah Bebar"],
+        "context_set" : ""
+    },
+    {
+        "tag": "lomba gis",
+        "patterns" : ["apa lomba yang diikuti gis","apa lomba yang diikuti divisi gis"],
+        "responses" : ["PKM & GEMASTIK"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kegiatan cyber security",
+        "patterns" : ["apa kegiatan cyber security","apa kegiatan divisi cyber security"],
+        "responses" : ["Persiapan CTF"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kegiatan big data",
+        "patterns" : ["apa kegiatan big data","apa kegiatan bigdata","apa kegiatan divisi big data","apa kegiatan divisi bigdata"],
+        "responses" : ["Build Portofolio & Mencari topik baru riset yang akan datang"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kegiatan gis",
+        "patterns" : ["apa kegiatan gis","apa kegiatan divisi gis"],
+        "responses" : [""],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kegiatan game tech",
+        "patterns" : ["apa kegiatan game tech","apa kegiatan divisi game tech","apa kegiatan gametech","apa kegiatan divisi gametech"],
+        "responses" : ["Membuat game edukasi buat lomba GEMASTIK"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "lomba game tech",
+        "patterns" : ["apa lomba yang diikuti divisi game tech","apa lomba yang diikuti game tech","apa lomba yang diikuti divisi gametech","apa lomba yang diikuti gametech"],
+        "responses" : ["PUSPIPTEK MOGRAPH & PKM"],
+        "context_set" : ""
+    },
+    {
+        "tag": "riset game tech",
+        "patterns" : ["riset gametech","riset divisi gametech","riset divisi game tech","apa riset divisi game tech","apa riset divisi gametech"],
+        "responses" : ["belum ada"],
+        "context_set" : ""
+    },
+    {
+        "tag": "sejarah",
+        "patterns" : ["sejarah mbc","bagaimanana sejarah mbc","sejarah mbclab","sejarah mbc lab"],
+        "responses" : ["Laboratorium MBC pada awalnya bernama Laboratorium Application and Security (A&S) yang berada dibawah naungan kelompok keahlian jaringan dan Multimedia (KK JMM) dan memiliki 6 divisi, antara lain intrusion Detection (IDS), Voice Over Internet Protocol (VOIP), Game Technology, Interactive Video (IV), Geographic Information System, dan Web. Kemudian berubah nama menjadi Laboratorium MBC pada tanggal 4 Oktober 2019 dengan 4 divisi."],
+        "context_set" : ""
+    },
+    {
+        "tag": "pembina",
+        "patterns" : ["siapa pembina lab mbc","siapa pembina mbc lab","siapa pembina mbclab","siapa pembina mbc","pembina mbc"],
+        "responses" : ["Pembina Lab MBC: 1. Dr. Basuki Rahmat, S.T.,M.T. \n 2. Sri Astuti, S.T.,M.T. \n 3. Fardan, S.T.,M.Sc. \n 4. Dr. Nyoman Bogi Aditya Karna, S.T.,M.T. \n 5. Bagus Aditya, S.T.,M.T. \n 6. Dr.Eng. Favian Dewantara, S.T.,M.T. \n 7. Sussi, S.Si.,M.T."],
+        "context_set" : ""
+    },
+    {
+        "tag": "telkom",
+        "patterns" : ["dimana telkom university"],
+        "responses" : ["Jl. Telekomunikasi Terusan Buah Batu Indonesia 40257, Bandung , Indonesia"],
+        "context_set" : ""
+    },
+    {
+        "tag": "instagram",
+        "patterns" : ["apa instagram mbc","instagram","ig","intagram mbc"],
+        "responses" : ["instagram : @mbclab"],
+        "context_set" : ""
+    },
+    {
+        "tag": "youtube",
+        "patterns" : ["apa channel youtube mbc","chanel","apa chanel youtube mbc","channel youtube","chanel youtube"],
+        "responses" : ["Youtube : MBC Media"],
+        "context_set" : ""
+    },
+    {
+        "tag": "instagram telkom",
+        "patterns" : ["apa instagram telkom","instagram telkom university"],
+        "responses" : ["Instagram telkom : @telkomuniversity"],
+        "context_set" : ""
+    },
+    {
+        "tag": "email telkom",
+        "patterns" : ["apa email telkom","email telkom university","email telyu"],
+        "responses" : ["email telkom : info[@]telkomuniversity.ac.id"],
+        "context_set" : ""
+
+    },
+    {
+        "tag": "telp",
+        "patterns" : ["telpon telkom university","nomor telkom","nomor telpon telkom"],
+        "responses" : ["No Telp : (022) 7566456"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tools cyber",
+        "patterns" : ["apa saja tools untuk belajar cyber security","tools cyber security","apa tools cyber security"],
+        "responses" : ["-Tools vulnerability analysis :  NMAP & NIKTO \n -Tools password attacks : hashcat & ophcrack \n -Tool reverse engineering : Clang++ & radare2 \n -Tool social engineering : maltego & msf payload creator \n -Tool steganography : stegosnow & steghide \n -Tools Digital Forensic: Autopsy & FTKimager"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tools password attacks",
+        "patterns" : ["apa itu tools password attacks","untuk apa tools password attack"],
+        "responses" : ["Password Cracking adalah proses menyerang password dari data yang telah tersimpan atau dikirim oleh sistem komputer."],
+        "context_set" : ""
+    },
+    {
+        "tag": "tools vulnerability analysis",
+        "patterns" : ["apa itu vulnerability analysis","untuk apa tools vulnerability analysis"],
+        "responses" : ["tools yang digunakan dalam proses Vulnerability Analysis, dirancang untuk secara otomatis memindai ancaman baru dan yang sudah ada yang dapat menargetkan aplikasi."],
+        "context_set" : ""
+    },
+    {
+        "tag": "tools reverse engineering",
+        "patterns": ["apa itu reverse engineering","untuk apa tools reverse engineering"],
+        "responses": ["tools yang digunakan dalam proses Reverse Engineering, Reverse Engineering atau Rekayasa Terbalik disebut juga rekayasa mundur adalah proses dimana suatu objek didekonstruksi untuk mengungkapkan desain, arsitektur, pola, cara kerja dari objek tersebut."],
+        "context_set": ""
+    },
+    {
+        "tag": "tools steganography",
+        "patterns": ["apa itu steganography","untuk apa tools steganography"],
+        "responses": ["tools yang digunakan dalam proses Steganography, berguna untuk menyisipkan text ke dalam gambar, audio, video, maupun sebaliknya"],
+        "context_set": ""
+    },
+    {
+        "tag" : " tools social engineering",
+        "patterns" : ["apa itu social engineering","untuk apa tools social engineering"],
+        "responses" : ["tools yang digunakan dalam proses social engineering, Kategori ini berisi powerful Maltego and Social Engineering Toolkit (SET) yang berguna dalam fase pengintaian dan eksploitasi pengujian penetrasi."],
+        "context_set" : ""
+    },
+    {
+        "tag": "dasar cyber security",
+        "patterns" : ["apa saja dasar yang harus dimiliki untuk belajar cyber security","dasar belajar cyber security"],
+        "responses" : ["tidak ada, kalau bisa paham dasar network, dan mempelajari commad kali linux."],
+        "context_set" : ""
+    },
+    {
+        "tag": "referensi cyber security",
+        "patterns" : ["dimana referensi belajar cyber security","web belajar cyber security","belajar cyber security"],
+        "responses" : ["Refrensi belajar cyber security: 1. Youtube : onno w purbo , semi yulianto \n 2. Web : https://staysafeonline.org/ , CTFR."],
+        "context_set" : ""
+    },
+    {
+        "tag": "materi cyber security",
+        "patterns" : ["apa saja yang dipelajari oleh cyber security","apa yang dipelajari cyber security"],
+        "responses" : ["Digital Forensic, Keamanan Jaringan, Keamanan Data, Dll."],
+        "context_set" : ""
+    },
+    {
+        "tag": "digital forensic",
+        "patterns" : ["apa itu digital forensic","perngertian digital forensic","arti digital forensic","apa yang dimaksud digital forensic"],
+        "responses" : ["Forensik digital adalah salah satu cabang ilmu forensik, terutama untuk penyelidikan dan penemuan konten perangkat digital, dan sering kali dikaitkan dengan kejahatan komputer"],
+        "context_set" : ""
+    },
+    {
+        "tag": "keamanan jaringan",
+        "patterns" : ["apa itu keamanan jaringan","pengertian keamanan jaringan","arti keamanan jaringan","apa yang dimaksud keamanan jaringan"],
+        "responses" : ["Keamanan Jaringan (network Security) terdiri dari kebijakan dan praktik yang diterapkan untuk mencegah dan memantau akses yang tidak sah, penyalahgunaan, modifikasi, atau penolakan jaringan komputer dan sumber daya yang dapat diakses jaringan. Keamanan jaringan melibatkan otorisasi akses ke data dalam jaringan, yang dikendalikan oleh administrator jaringan"],
+        "context_set" : ""
+    },
+    {
+        "tag": "keamanan data",
+        "patterns" : ["apa yang dimaksud keamanan data", "apa itu keamanan data","arti keamanan data","pengertian keamanan data"],
+        "responses" : ["Keamanan data adalah sebuah program yang memastikan keamanan data milik kita, disini maksudnya adalah program ini memastikan orang lain tidak dapat melihat, mengakses atau bahka mengambil data milik kita"],
+        "context_set" : ""
+    },
+    {
+        "tag": "luas",
+        "patterns" : ["berapa luas telkom","berapa luas telkom university"],
+        "responses" : ["Luas Telkom University 55 Hektar"],
+        "context_set" : ""
+    },
+    {
+        "tag": "danau",
+        "patterns" : ["danau telkom","danau yang terkenal di telkom","danau di telkom university","danau di telkom"],
+        "responses" : ["Danau yang terkenal di Telkom University adalah Danau Galau"],
+        "context_set" : ""
+    },
+    {
+        "tag": "fakultas telkom",
+        "patterns" : ["berapa banyak fakultas di telkom","fakultas telkom university","apa saja fakultas di telkom"],
+        "responses" : ["Telkom University memiliki 7 Fakultas"],
+        "context_set" : ""
+    },
+    {
+        "tag": "jurusan telkom",
+        "patterns" : ["berapa banyak jurusan di telkom","jurusan telkom university","apa saja jurusan di telkom"],
+        "responses" : ["Telkom University memiliki 50 jurusan pragram studi"],
+        "context_set" : ""
+    },
+    {
+        "tag": "web pendaftaran",
+        "patterns" : ["apa nama web pendafataran maba telkom university","apa web pendaftaran telkom university","web pendaftaran telkom"],
+        "responses" : ["Web pendataran mahasiswa/i baru Telkom University : https://smb.telkomuniversity.ac.id/"],
+        "context_set" : ""
+    },
+    {
+        "tag": "youtube telkom",
+        "patterns" : ["apa nama youtube telkom","apa chanel youtube telkom","apa channel youtube telkom"],
+        "responses" : ["Channel Youtube Telkom University : Telkom University"],
+        "context_set" : ""
+    },
+    {
+        "tag": "whatsapp",
+        "patterns" : ["whatsapp smb","whatsapp info smb","info smb"],
+        "responses" : ["Nomor Whatsapp SMB Telkom University : +62 811-2233-9123"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tools game tech",
+        "patterns" : ["apa saja tools yang digunakan dalam game tech","apa saja tools yang digunakan dalam gametech"],
+        "responses" : ["Tools yang digunakan dalam game tech, Unity, Unreal Engine, VN Maker, Twine, RPG, Maker, Lumberyard, GDevelop, Cryengine"],
+        "context_set" : ""
+    },
+    {
+        "tag": "pembuatan game sulit",
+        "patterns" : ["bagaimana pembuatan game sulit","teknis game sulit"],
+        "responses" : ["ketika membuat sebuah game jangan terlalu sulit, karena jika game yang dibuat terlalu sulit maka pengguna akan cepat putus asa dan game yang sulit tidak akan dilirik oleh"],
+        "context_set" : ""
+    },
+    {
+        "tag": "pembuatan game mudah",
+        "patterns" : ["bagaimana pembuatan game mudah","teknis game mudah"],
+        "responses" : ["Ketika membuat game jangan telalu mudah, karena jika game terlalu mudah dan tidak ada tantangannya, maka player akan merasa bosan dan tidak memiliki ketagihan dalam memainkan game tersebut."],
+        "context_set" : ""
+    },
+    {
+        "tag": "penjualan game",
+        "patterns" : ["bagaimana cara memasarkan game","bagaimana car penjualan game"],
+        "responses" : ["Kita bisa memasarkan game dengan iklan di sosial media. Cara ini bisa membuat game lebih dikenal oleh masyarakat."],
+        "context_set" : ""
+    },
+    {
+        "tag": "game developer",
+        "patterns" : ["apa tips dan trik game developer","bagaimana game developer"],
+        "responses" : ["Untuk menjadi game developer, yang pertama kali haruslaah tertarik dengan sebuah game, jika kita sudah suka dengan game, maka akan lebih mudah beradaptasi dengan pekerjaannya."],
+        "context_set" : ""
+    },
+    {
+        "tag": "Gdevelop",
+        "patterns" : ["bagaimana cara membuat game di gdevelop","gdevelop"],
+        "responses" : ["Cara membuat video game dengan Gdevelop cukup mudah dan prosesnya bisa dilakukan hanya dengan menggunakan drag dan juga drop interface"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tools rpg maker",
+        "patterns" : ["apa itu tools rpg maker","rpg maker","untuk apa tools rpg maker"],
+        "responses" : ["RPG Maker adalah sebuah tools untuk membuat game klasik jenis JRPG"],
+        "context_set" : ""
+    },
+    {
+        "tag": "unity",
+        "patterns" : ["apa itu unity","pengertian unity","apa itu tools unity","untuk apa tools unity"],
+        "responses" : ["Unity merupakan tools video game yang dikembangkan oleh Unity Technologie, dan cukup populer dikalangan game developer"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kelebihan unreal engine",
+        "patterns" : ["apa kelebihan tools unreal engine","tools unreal engine","keuntungan tools unreal engine"],
+        "responses" : ["Dapat menghasilkan 3D games yang pastinya bisa didapatkan dengan gratis"],
+        "context_set" : ""
+    },
+    {
+        "tag": "vn maker",
+        "patterns" : ["apa itu vn maker","untuk apa tools vn maker","tools vn maker"],
+        "responses" : ["Tools yang digunakan untuk membuat sebuah novel visual tanpa tahu bagaimana cara memprogramnya"],
+        "context_set" : ""
+    },
+    {
+        "tag": "hollow knight",
+        "patterns" : ["bagaimana cara membuat game hollow knight","membuat game hollow knight","game hollow knight"],
+        "responses" : ["Game Hollo Knight dibuat dengan menggunakan tools Unity"],
+        "context_set" : ""
+    },
+    {
+        "tag": "untitled goose",
+        "patterns" : ["bagaimana cara membuat game untitled goose","membuat game untitled goose","game untitled goose"],
+        "responses" : ["Game Untitle Goose dibuat dengan menggunakan tools Unity"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tools twine",
+        "patterns" : ["apa itu tools twine","apa saja yang bisa digunakan pada tools twine"],
+        "responses" : ["Tools Twine dapat digunakan dengan program HTML, CSS, hiangga Java Script"],
+        "context_set" : ""
+    },
+    {
+        "tag": "sistem operasi rpg maker",
+        "patterns" : ["sistem operasi apa yang bisa digunakan rpg maker","dimana rpg maker dapat digunakan","dimana rpg maker dapat beroperasi"],
+        "responses" : ["RPG Maker dapat digunakan di MacOS & Windows","RPG Maker dapat beroperasi di MacOS & Windows"],
+        "context_set" : ""
+    },
+    {
+        "tag": "sistem operasi gdevelop",
+        "patterns" : ["sistem operai apa yang bisa digunakan gdevelop","dimana gdevelop dapat digunakan","dimana gdevelop dapat beroperasi"],
+        "responses" : ["GDevelop dapat beroperasi di MacOS & Windows","Gdevelop dapat digunakan di MacOS & Windows"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kelebihan gdevelop",
+        "patterns" : ["apa kelebihan tools gdevelop","tools gdevelop","keuntungan tools gdevelop"],
+        "responses" : ["Kelebihan dari tools ini adalah banyak sekali tutorial sekaligus panduan yang bisa didapatkan untuk membuat sebuah video game"],
+        "context_set" : ""
+    },
+    {
+        "tag": "game tools cryengine",
+        "patterns" : ["contoh game yang dibuat menggunakan tools cryengine","game cryengine","contoh game yang dibuat dengan tools cryengine"],
+        "responses" : ["Flappy Birds"],
+        "context_set" : ""
+    },
+    {
+        "tag": "positif game",
+        "patterns" : ["apa saja dampak positif bermain game","dampak positif game","dampak positif bermain game"],
+        "responses" : ["Dampak positif bermain game: menghilangkan stress, melatih otak kanan dan melatih kesabaran"],
+        "context_set" : ""
+    },
+    {
+        "tag": "negatif game",
+        "patterns" : ["apa saja dampak negatif bermain game","dampak negatif game","dampak negatif bermain game"],
+        "responses" : ["Dampak negatif bermain game: Menjadi malas untuk melakukan aktivitas lain, gangguan pada mata, dan membuat lupa waktu"],
+        "context_set" : ""
+    },
+    {
+        "tag": "design game",
+        "patterns" : ["software gametech","software apa saja yang digunakan untuk mendesain game","software game tech"],
+        "responses" : ["Software yangdunakan untuk mendesain game adalah: Canva, Adobe Ilustrator & Software lainnya"],
+        "context_set" : ""
+    },
+    {
+        "tag": "adobe ilustrator",
+        "patterns" : ["apa saja fitur unggulan adobe ilustrator","fitur unggulan adobe ilustrator","fitur adobe ilustrator"],
+        "responses" : ["Fitur unggulan yang tersedia di Adobe Ilustrator: Pathfinder, Pen tool, Clipping Mask, Live Trace, pattern"],
+        "context_set" : ""
+    },
+    {
+        "tag": "fitur pattern",
+        "patterns" : ["apa itu fitur pattern adobe ilustrator","pattern adobe ilustrator","apa itu fitur pattern"],
+        "responses" : ["Fitur Pattern pada aplikasi Adobe Ilustrator dapat membuat pola tanpa harus mengulang-ngulang desain tertentu"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tool clipping mask",
+        "patterns" : ["apa itu fitur tool clipping mask adobe ilustrator","clipping mask adobe ilustrator","fitur clipping mask pada aplikasi adobe ilustartor","apa itu fitur clipping mask","apa itu fitur tool clipping mask"],
+        "responses" : ["Clipping Mask bekerja dengan meng-copy warna atau pola dari suatu benda"],
+        "context_set" : ""
+    },
+    {
+        "tag": "pathfinder",
+        "patterns" : ["apa itu fitur pathfinder","apa itu fitur pathfinder adobe ilustrator","pathfinder adobe ilustartor","fitur pathfinder pada aplikasi adobe ilustrator"],
+        "responses" : ["Patfinder untuk memodifikasi bentuk suatu benda berdasarkan benda tertentu yang lain"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tab hierarchy",
+        "patterns" : ["apa fungsi tab hierarchy pada unity","tab hieararchy unity","fungsi tab hierarchy"],
+        "responses" : ["Pada tab ini berfungsi untuk memasukkan object yang akan tampil di game"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "tab inspector",
+        "patterns" : ["apa fungsi tab inspector pada unity","tab inspector unity","fungsi tab inspector"],
+        "responses" : ["Pada tab ini digunakan untuk mengedit property object yang diklik pada komponen object yang berada pada Tab Hierarchy, pada tab ini juga digunakan untuk menyunting dan menambahkan komponen-komponen object seperti script"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tab project",
+        "patterns" : ["apa fungsi tab project","tab project unity","fungsi tab project"],
+        "responses" : ["Tab project pada Unity berisi semua bahan-bahan yang akan kita gunakan dalam pembuatan game kita, dibagian ini sebagi tempat berbagai macam bentuk komponen seperti Folder, Animasi, Script, Image, Object 3D, Material, dan masih banyak lagi."],
+        "context_set" : ""
+    },
+    {
+        "tag": "tab console",
+        "patterns" : ["apa fungsi tab console","tab console unity","fungsi tab console"],
+        "responses" : ["Fungsi Tab Console adalah tempat penampilan pesar error dalam project kita, tapi paling sering terjadi pesan error saat pembuatan Script yang tidak dikenali oleh sistem atau kesalahan-kesalahan dalam pembuatan script"],
+        "context_set" : ""
+    },
+    {
+        "tag": "tab scene",
+        "patterns" : ["apa fungsi tab scene","tab scene unity","fungsi tab scene"],
+        "responses" : ["Fungsi Tab Scene adalah tempat atau ruangan dimana kita meletakkan komponen seperti camera, Terrain, Object, Dll."],
+        "context_set" : ""
+    },
+    {
+        "tag": "tab game",
+        "patterns" : ["apa fungsi tab game","tab game unity","fungsi tab game"],
+        "responses" : ["Fungsi tab game adalah sebagai tempat game di uji coba, dimana kita bisa menjalankannya dengan mengklik tombol play"],
+        "context_set" : ""
+    },
+    {
+        "tag": "rilis unity",
+        "patterns" : ["kapan pertama kali software unity rilis","rilis software unity","kapan unity rilis"],
+        "responses" : ["Uniti dirilis pada tahun 2005"],
+        "context_set" : ""
+    },
+    {
+        "tag": "Artificial Intelligence",
+        "patterns" : ["big data dan AI apa bedanya?","big data sama kayak AI?","AI vs big data","apakah big data termasuk AI?","hubungan big data dan AI"],
+        "responses" : ["big data termasuk dalam cabang pembelajaran di AI. Kita memerlukan cakupan data yang besar atau big data untuk melakukan ilmu pada AI."],
+        "context_set" : ""
+    },
+    {
+        "tag": "maching learning vs AI",
+        "patterns": ["machine learning dan AI apa bedanya?","apakah machine learning sama seperti AI?","machine learning vs AI","machine learning dan AI","hubungan machine learning dan AI"],
+        "responses": ["Machine Learning adalah subset dari AI dimana mesin dilatih untuk belajar dari pengalaman masa lalu. Pengalaman masa lalu dikembangkan melalui data yang dikumpulkan, kemudian menggabungkan dengan algoritma tertentu."],
+        "context_set" : ""
+    },
+    {
+        "tag": "statistik",
+        "patterns" : ["hubungan maching learning dan statistik?","machine learning dan statistik apa bedanya","apakah machine learning menggunakan statistika?","statistika dan machine learning","apakah statistika termasuk machine learning?"],
+        "responses" : ["Statistik adalah cabang matematika yang memanfaatkan data baik dari keseluruhan populasi atau sampel untuk melakukan analisis dan menyajikan kesimpulan. Beberapa teknik statistik yang digunakan adalah regresi, varians, standar deviasi, probabilitas bersyarat dan lainnya."],
+        "context_set" : ""
+    },
+    {
+        "tag": "deep learning",
+        "patterns": ["apakah deep learning itu machine learning?","apakah machine learning dan deep learning sama?","apa perbedaan machine learning dan deep learning?","deep learning vs machine learning","perbedaan machine learning dan deep learning"],
+        "responses": ["Deep Learning termasuk pada cabang di Machine Learning. Deep Learning dikaitkan dengan algoritma jaringan saraf tiruan –  Artificial Neural Network (ANN) yang menggunakan konsep otak manusia untuk memudahkan pemodelan fungsi yang berubah-ubah. ANN membutuhkan sejumlah besar data dan algoritma ini sangat fleksibel dalam hal menghasilkan bayak keluaran secara bersamaan"],
+        "context_set" : ""
+    },
+    {
+        "tag": "data mining",
+        "patterns": ["data mining itu apa?","apakah machine learning terdapat data mining?","apa itu data mining?","perbedaan data mining dan machine learning","data mining vs AI"],
+        "responses": ["Data Mining digunakan untuk mencari informasi yang spesifik, sedangkan Machine Learning berkonsentrasi untuk melakukan tugas tertentu. Sebagai contoh untuk membantu perbedaan antara Machine Learning dan Data Mining, mengajar seorang cara menari adalah Machine Learning, sedangkan menggunakan seseorang untuk mencari pusat tarian terbaik di kota adalah Data Mining."],
+        "context_set" : ""
+    },
+    {
+        "tag": "cara kerja machine learning",
+        "patterns": ["bagaimana cara kerja machine learning?","machine learning gimana kerjanya?","bagaimana cara menjalankan machine learning?","bagaimana cara membuat machine learning?","gimana machine learning berjalan?"],
+        "responses": ["Machine Learning melibatkan proses struktural dimana setiap tahap membangun versi mesin yang lebih baik. Untuk penyederhanaan, proses Machine Learning bisa dibagi menjadi 3 bagian. Menginput data, mengabstrak data dan generalisasi."],
+        "context_set" : ""
+    },
+    {
+        "tag": "tipe machine learning",
+        "patterns": ["tipe pada machine learning","apa saja tipe pada machine learning","jenis-jenis machine learning","machine learning ada tipe apa saja","tipe-tipe machine learning"],
+        "responses": ["supervised, unsupervised dan reinforcement."],
+        "context_set" : ""
+    },
+    {
+        "tag": "supervised learning",
+        "patterns": ["apa itu supervised learning?","supervised learning adalah","apa itu tipe supervised pada machine learning","apa yang dimaksud dengan supervised learning?","supervised learning"],
+        "responses": ["Model ini digunakan untuk memprediksi hasil masa depan berdasarkan data historis. Model prediktif biasanya diberi instruktsi yang jelas sejak awal seperti apa yang perlu dipelajari dan bagaimana itu perlu dipelajari."],
+        "context_set" : ""
+    },
+    {
+        "tag": "unsupervised",
+        "patterns": ["unsupervised apa","apa itu unsupervised","unsupervised pada machine learning","tipe unsupervised adalah","unsupervised adalah","unsupervised machine learning","apa yang dimaksud dengan unsupervised learning","unsupervised learning"],
+        "responses": ["Model ini digunakan untuk melatih dimana tidak ada target yang ditetapkan dan tidak ada faktor yang penting dari yang lainnya."],
+        "context_set" : ""
+    },
+    {
+        "tag": "reinforcement",
+        "patterns": ["reinforcement adalah","tipe reinforcement","apa itu reinforcement learning","apa itu tipe reinforcement","reinforcement pada machine learning","reinforcement learning","apa yang dimaksud dengan reinforcement learning"],
+        "responses": ["Model ini adalah contoh  pembelajaran mesin dimana mesin dilatih untuk mengambil keputusan spesifik berdasarkan kebutuhan bisnis dengan tujuan utama untuk memaksimalkan efisiensi (kinerja). Ide dari Reinforcement learning ini adalah mesin/perangkat lunak melatih dirinya secara terus menerus berdasarkan lingkungan yang dipengaruhinya, dan menerapkan pengetahuan yang diperkaya unntuk memecahkan masalah bisnis."],
+        "context_set" : ""
+    },
+    {   
+        "tag": "fungsi machine learning",
+        "patterns": ["machine learning untuk apa?","penggunaan machine learning","manfaat machine learning","apa saja penggunaan machine learning?","apa yang bisa menggunakan machine learning?","contoh manfaat machine learning","contoh penggunaan machine learning","kegunaan machine learning"],
+        "responses": ["layanan perbankan atau keuangan untuk prediksi pelanggan, kesehatan untuk diagnosis penyakit, ritel untuk identifikasi produk."],
+        "context_set" : ""
+    },
+    {
+        "tag": "dampak positif machine learning",
+        "patterns": ["apa dampak positif machine learning?","efek positif machine learning pada masyarakat","dampak positif machine learning pada masyarakat","hal positif dari machine learning","dampak positif machine learning","efek positif machine learning pada kehidupan","pengaruh positif machine learning","pengaruh positif machine learning pada kehidupan"],
+        "responses": ["Salah satu dampak positif dari machine learning adalah menjadi peluang bagi para wirausahawan dan praktisi teknologi untuk terus berkarya dalam mengembangkan teknologi machine learning. Terbantunya aktivitas yang harus dilakukan manusia pun menjadi salah satu dampak positif machine learning. Sebagai contohnya adalah adanya fitur pengecekan ejaan untuk tiap bahasa pada Microsoft Word. Pengecekan secara manual akan memakan waktu berhari-hari dan melibatkan banyak tenaga untuk mendapatkan penulisan yang sempurna. Tapi dengan bantuan fitur pengecekan ejaan tersebut, secara real-time kita bisa melihat kesalahan yang terjadi pada saat pengetikan."],
+        "context_set" : ""    
+    },
+    {
+        "tag": "dampak negatif machine learning",
+        "patterns": ["apa dampak negatif machine learning?","efek negatif machine learning pada masyarakat","dampak negatif machine learning pada masyarakat","hal negatif dari machine learning","dampak negatif machine learning","efek negatif machine learning pada kehidupan","pengaruh negatif machine learning","pengaruh negatif machine learning pada kehidupan"],
+        "responses": ["Adanya pemotongan tenaga kerja karena pekerjaan telah digantikan oleh alat teknologi machine learning adalah suatu permasalahan yang harus dihadapi. Ditambah dengan ketergantungan terhadap teknologi akan semakin terasa. Manusia akan lebih terlena oleh kemampuan gadget-nya sehingga lupa belajar untuk melakukan suatu aktivitas tanpa bantuan teknologi."],
+        "context_set" : ""
+    },
+    {
+        "tag": "game developer",
+        "patterns" : ["bagaimana game developer bekerja","game developer membuat game"],
+        "responses" : ["Game developer harus bisa membayangkan terlebih dahulu game yang akan dibuat, membyangkan bagaimana cara kerja permainannya tersebut."],
+        "context_set" : ""
+    },
+    {
+        "tag" : "script game",
+        "patterns" : ["apa bedanya script web developer dan game developer","script game developer"],
+        "responses" : ["Konsep Script yang digunakan web dev dan game dev sama, namu syntax dan tujuan penggunaannya yang berbeda. Ada juga games yang menggunakan JavaScript (umunya digunakan untuk mengembangkan website)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "bahasa pemrograman machine learning",
+        "patterns": ["machine learning pakai bahasa apa?","bahasa pemrograman machine learning","apakah machine learning hanya pakai python?","bahasa yang digunakan untuk machine learning","pemrograman pada machine learning","bahasa pada machine learning","apakah machine learning pakai bahasa c?"],
+        "responses": ["bahasa pemrograman yang paling populer digunakan untuk machine learning adalah Python. Namun, kamu juga bisa memakai Java, R, C++ dan C."],
+        "context_set" : ""
+    },
+    {
+        "tag": "algoritma machine learning",
+        "patterns": ["algorithma machine learning","apa saja algorithma machine learning","berapa macam algorithma pada machine learning","jenis algorithma machine learning","macam-macam algorithma machine learning","apa itu algorithma machine learning","berapa jenis algorithma machine learning","algorithma pada machine learning"],
+        "responses": ["Algorithma pada machine learning sangat banyak dan digunakan sesuai dengan tujuannya. Contoh algorithma pada supervised learning adalah SVM, Logistic Regression dan Random Forest. Lalu, contoh algorithma pada unsupervised learning adalah k-means clustering."],
+        "context_set" : ""
+    },
+    {
+        "tag": "algorithma linear regression",
+        "patterns": ["algorithma linear regression","linear regression pada machine learning","apa itu algorithma linear regression","apa yang dimaksud dengan linear regression","linear regression adalah","algorithma linear regression adalah?","linear regression di machine learning","algorithma supervised linear regression","linear regression"],
+        "responses": ["Dalam linear regression (regresi linier), yang diukur adalah hubungan linier antara dua atau lebih dari dua variabel. Berdasarkan hubungan tersebut, supervised learning melakukan prediksi yang mengikuti pola linier ini"],
+        "context_set" : ""
+    },
+    {
+        "tag": "algorithma random forest",
+        "patterns": ["algorithma random forest","random forest pada machine learning","apa itu algorithma random forest","apa yang dimaksud dengan random forest?","random forest adalah","algorithma random forest adalah?","random forest di machine learning","algorithma supervised random forest","random forest"],
+        "responses": ["Random Forest adalah metode ensemble learning untuk melakukan klasifikasi, regresi serta tugas-tugas lainnya melalui pembangunan pohon keputusan (decision tree) dan menyediakan output sebagai kelas yang merupakan mode atau mean dari pohon individu yang mendasarinya."],
+        "context_set" : ""
+    },
+   {
+        "tag": "algorithma SVM",
+        "patterns": ["algorithma svm","support vector machine pada machine learning","apa itu algorithma svm","apa yang dimaksud dengan svm?","support vector machine adalah","algorithma svm adalah?","svm di machine learning","algorithma supervised svm","svm"],
+        "responses": ["SVM adalah algoritma lasifikasi yang kuat yang digunakan untuk mengklasifikasikan dataset biner menjadi dua kelas dengan bantuan hyperplane."],
+        "context_set": ""
+    },
+    {
+        "tag": "algorithma gradient boosting",
+        "patterns": ["algorithma gradient boosting","gradient boosting pada machine learning","apa itu algorithma gradient boosting","apa yang dimaksud dengan gradient boosting?","gradient boosting adalah","algoritma gradient boosting adalah?","gradient boosting di machine learning","algoritma supervised gradient boosting","gradient boosting"],
+        "responses": ["Gradient Boosting adalah metode ensemble learning yang merupakan kumpulan dari beberapa pohon keputusan lemah yang menghasilkan pengklasifikasi yang kuat."],
+        "context_set" : ""        
+    },
+    {
+        "tag": "algoritma artificial neural network",
+        "patterns": ["algoritma artificial neural network","artificial neural network pada machine learning","apa itu algoritma artificial neural network","apa yang dimaksud dengan artificial neural network?","artificial neural network adalah","algoritma artificial neural network adalah?","artificial neural network di machine learning","algoritma supervised artificial neural network","neural network"],
+        "responses": ["Jaringan Syaraf Tiruan dimodelkan setelah otak manusia belajar dari data dari waktu ke waktu. Mereka membentuk porsi yang jauh lebih besar dari machine learning yang disebut dengan deep learning."],
+        "context_set" : ""      
+    },
+    {
+        "tag": "contoh penerapan supervised learning",
+        "patterns": ["contoh supervised learning","apa contoh supervised learning?","contoh supervised learning pada kehidupan sehari-hari","apa contoh supervised learning pada kehidupan sehari-hari","supervised learning di kehidupan sehari-hari","penerapan supervised learning","penerapan supervised learning di keseharian","apa contoh penerapan supervised learning?"],
+        "responses": ["penentuan email spam dan tidak. Hal tersebut menggunakan algorithma random forest dimana email di klasifikasikan menjadi spam dan tidak spam. Maka dari itu, email spam anda dapat terpisah dengan sendirinya."],
+        "context_set" : ""
+    },
+    {
+        "tag": "algoritma k-means",
+        "patterns": ["algoritma k-means","k-means pada machine learning","apa itu algoritma k-means","apa yang dimaksud dengan k-means?","k-means adalah","algoritma k-means adalah?","k-means di machine learning","algoritma unsupervised k-means","kmeans","k-means"],
+        "responses": ["Algoritma K-Means Clustering adalah metode unsupervised learning klasik. Output algoritma ini adalah memecah data observasi menjadi beberapa cluster sehingga setiap data masuk ke dalam cluster berdasarkan mean (rata-rata) terdekat."],
+        "context_set" : ""
+    },
+    {
+        "tag": "algoritma k-means-mode",
+        "patterns": ["algoritma k-means-mode","k-means-mode pada machine learning","apa itu algoritma k-means-mode","apa yang dimaksud dengan k-means-mode?","k-means-mode adalah","algoritma k-means-mode adalah?","k-means-mode di machine learning","algoritma unsupervised k-means-mode","k-means mode","kmeans mode"],
+        "responses": ["Algoritma K-Means-Mode adalah algoritma unsupervised learning yang dapat menangani data numerik (kontinu) dan data kategorik. Setiap pusat cluster merupakan array means dan modus untuk data kontinu dan kategorik."],
+        "context_set" : ""    
+    },
+    {
+        "tag": "algoritma hierarchical agglomerative",
+        "patterns": ["algoritma hierarchical agglomerative","hierarchical agglomerative pada machine learning","apa itu algoritma hierarchical agglomerative","apa yang dimaksud dengan hierarchical agglomerative?","hierarchical agglomerative adalah","algoritma hierarchical agglomerative adalah?","hierarchical agglomerative di machine learning","algoritma unsupervised hierarchical agglomerative","hierarchical agglomerative"],
+        "responses": ["Hierarchical Agglomerative Clustering adalah algoritma clustering dari bawah ke atas sehingga tiap titik data dibagi menjadi beberapa cluster lalu beberapa cluster tersebut digabung sehingga pada langkah terakhir hanya terdapat satu cluster saja."],
+        "context_set" : ""     
+    },
+    {
+        "tag": "arti big data",
+        "patterns": ["apa itu big data","big data adalah","big data","arti big data","big data itu apa","yang dimaksud dari big data","big data adalah","arti big data","arti bigdata"],
+        "responses": ["Big data adalah kumpulan proses yang terdiri volume data dalam jumlah besar yang terstruktur maupun tidak terstruktur dan digunakan untuk membantu kegiatan bisnis. Big data sendiri merupakan pengembangan dari sistem database pada umumnya."],
+        "context_set" : ""        
+    },
+    {
+        "tag": "definisi big data",
+        "patterns": ["apa itu 5V","5V pada big data","apa yang dimaksud dengan 5V","apa arti 5V pada big data","5V","5V big data","maksud dari 5V pada big data","yang dimaksud dengan 5V"],
+        "responses": ["definisi dari big data dibagi menjadi 5 bagian yaitu volume, velocity, veracity, value dan variety."],
+        "context_set" : ""        
+    },
+    {
+        "tag": "definisi volume",
+        "patterns": ["apa itu volume","volume pada big data","apa yang dimaksud dengan volume","apa arti volume pada big data","volume","volume big data","maksud dari volume pada big data","yang dimaksud dengan volume"],
+        "responses": ["Ukuran data yang dimiliki oleh big data memiliki kapasitas yang besar. Anda dapat mencoba melakukan proses data dengan ukuran yang besar untuk dijalankan."],
+        "context_set" : ""        
+    },
+    {
+        "tag": "definisi velocity",
+        "patterns": ["apa itu velocity","velocity pada big data","apa yang dimaksud dengan velocity","apa arti velocity pada big data?","velocity","velocity big data","maksud dari velocity pada big data","yang dimaksud dengan velocity"],
+        "responses": ["Kecepatan transfer data juga sangat berpengaruh dalam proses pengiriman data dengan efektif dan stabil. Big data memiliki kecepatan yang memungkinkan untuk dapat diterima secara langsung (real-time). Kecepatan tertinggi yang bisa didapatkan langsung melalui aliran data ke memori apabila dibandingkan dengan yang ditulis pada sebuah disk."],
+        "context_set" : ""
+    },
+    {
+        "tag": "konsep cybersecurity",
+        "patterns": ["apa konsep cyber security","berapa konsep cybersecurity","apa saja konsep cybersecurity","konsep cyber security"],
+        "responses": ["confidentiality (kerahasiaan), integrity (integritas), dan availability (ketersediaan) informasi."],
+        "context_set": ""
+    },
+    {
+        "tag": "jumlah konsep dasar cyber security",
+        "patterns": ["berapa jumlah konsep dasar cyber security","dasar cyber security ada berapa","jumlah konsep cyber security"],
+        "responses": ["konsep dasar cyber security ada 3"],
+        "context_set": ""
+    },
+    {
+        "tag": "confidentiality",
+        "patterns": ["apa itu confidentiality","confidentiality","konsep kerahasiaan cyber security"],
+        "response": ["Confidentiality adalah usaha untuk merahasiakan atau menyimpan data,Praktiknya berupa tindakan mengontrol akses data agar tidak terjadi pencurian atau kebocoran data."],
+        "context_set": ""
+    },
+    {
+        "tag": "intergrity",
+        "patterns": ["intergrity dalam cybersecurity adalah","apa itu intergrity","konsep intergrity"],
+        "responses": ["Integrity dalam teknologi informasi adalah upaya memberikan data yang konsisten, akurat, dan terpercaya."],
+        "context_set": ""
+    },
+    {
+        "tag": "availability",
+        "patterns": ["apa itu konsep availibility","availibality adalah","maksud availability"],
+        "responses": ["vailability mengacu pada ketersediaan data Anda. Dalam bisnis, tersedianya sistem, aplikasi dan data yang dapat diakses pelanggan adalah kewajiban."],
+        "context_set": ""
+    },
+    {
+        "tag": "penerapan cyber security",
+        "patterns": ["contoh penerapan cyber security","penerapan cyber security untuk kehidupan","penggunaan cyber security"],
+        "responses": ["penerapan utama cyber secuity ada 3 yaitu cloud security,network security, application security"],
+        "context_set": ""
+    },
+    {
+        "tag": "cloud security",
+        "patterns": ["cloud security adalah","maksud cloud security adalah","pengertian cloud security"],
+        "responses": ["Cloud security mengacu pada upaya individu atau kelompok dalam melindungi data yang tersimpan di cloud. Upaya perlindungan ini melibatkan teknologi, kebijakan kontrol dan layanan yang mendukung terciptanya keamanan cloud."],
+        "context_set": ""
+    },
+    {
+        "tag": "ancaman cloud security",
+        "patterns": ["contoh ancaman dalam cloud security","ancaman cloud security"],
+        "responses": ["Ancaman cloud security adalah penyalahgunaan data, pencurian data dan pembajakan traffic layanan. Penyedia layanan penyimpanan cloud yang buruk juga bisa mengancam kemanan cloud."],
+        "context_set": ""
+    },
+    {
+        "tag": "network security",
+        "patterns": ["network security adalah","maksud network security adalah","pengertian network security"],
+        "responses": ["Network security adalah praktik perlindungan jaringan internal Anda dengan meningkatkan keamanan jaringan. Network security sangat penting terutama bagi perusahaan yang menggunakan sistem jaringan dalam aktivitasnya."],
+        "context_set": ""
+    },
+    {
+        "tag": "ancaman network security",
+        "patterns": ["manfaat network security","penggunaan network security","fungsi network security"],
+        "responses": ["Network security berguna untuk melindungi aset perusahaan dari ancaman cyber crime. Selain itu, perlindungan jaringan membuat pengelolaan lalu-lintas jaringan lebih efisien."],
+        "context_set": ""
+    },
+    {
+        "tag": "application security",
+        "patterns": ["apa itu application security","pengertian application security","maksud application security"],
+        "responses": ["Application security adalah usaha melindungi dan meningkatkan keamanan aplikasi dari ancaman yang mungkin terjadi. Dalam website toko online misalnya. Anda perlu meningkatkan keamanan website untuk memastikan data Anda dan pelanggan aman dari ancaman peretas."],
+        "context_set": ""
+    },
+    {
+        "tag": "ancaman cyber",
+        "patterns": ["apa saja ancaman cyber","macam-macan ancaman cyber","jenis-jenis anacaman cyber","contoh ancaman cyber"],
+        "responses": ["1.cyber crime, 2. cyber attack, 3. cyber terorism"],
+        "context_set": ""
+    },
+    {
+        "tag": "cyber crime",
+        "patterns": ["cyber crime adalah","apa itu cyber crime","cyber crime","pengertian cyber crime","maksud cyber crime"],
+        "responses": ["Cyber crime adalah kejahatan yang menyasar sistem komputer. Pelaku melakukan akses ilegal, transmisi ilegal atau manipulasi data untuk tujuan tertentu. Di antaranya menciptakan gangguan dan mencari keuntungan finansial."],
+        "context_set": ""
+    },
+    {
+        "tag": "cyber attack",
+        "patterns": ["cyber attack adalah","pengertian cyber attack","definisi cyber attack","maksud cyber attack","cyber attack"],
+        "responses": ["cyber crime yang bisa menyasar siapa saja, target cyber attack biasanya melibatkan kepentingan politik. Aktivitas ini berusaha mengumpulkan informasi, mencuri data, hingga mengambil alih sistem targetnya"],
+        "context_set": ""
+    },
+    {
+        "tag": "cyber terorism",
+        "patterns": ["cyber terorism adalah","pengertian cyber terorism","definisi cyber terorism","maksud cyber terorism adalah"],
+        "responses": ["Cyber Terrorism mengacu pada usaha mengancam, provokasi atau intimidasi lewat sistem komputer. Aktivitas cyber ini sangat berbahaya karena menyebabkan kepanikan dan ketakutan skala besar."],
+        "context_set": ""
+    },
+    {
+        "tag": "metode ancaman cyber",
+        "patterns": ["apa saja metode ancaman cyber","jenis-jenis ancaman cyber","tipe ancaman cyber"],
+        "responses": ["1. malware, 2.injeksi SQL, 3. Phising, 4. serangan Man-in-the-middle, 5. serangan Denial-of-Service "],
+        "context_set": ""
+    },
+    {
+        "tag": "malware",
+        "patterns": ["apa itu malware","definisi malware","malware adalah","maksud malware"],
+        "response": ["Malware atau malicious software adalah salah satu ancaman cyber paling umum. Perangkat lunak ini dibuat untuk mengganggu atau merusak komputer pengguna. Malware seringkali menyebar melalui lampiran email atau unduhan yang nampak sah."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jenis malware",
+        "patterns": ["jenis-jenis malware","macam-macam malware"],
+        "responses": ["virus, trojans, spyware, ransomware, adware, bootnate"],
+        "context_set": ""
+    },
+    {
+        "tag": "virus",
+        "patterns": ["virus adalah","pengertian virus","definisi virus","maksud virus"],
+        "responses": ["Program yang mereplikasi diri, menempel pada file bersih dan menyebar ke seluruh sistem komputer. Virus menginfeksi file dengan kode berbahaya."],
+        "context_set": ""
+    },
+    {
+        "tag": "trojans",
+        "patterns": ["trojans adalah","definisi trojans","maksud trojans"],
+        "responses": ["Sejenis malware yang menyamar sebagai perangkat lunak yang sah. Penjahat cyber menipu pengguna agar mengunggah Trojan ke komputer mereka untuk mengumpulkan data atau menyebabkan kerusakan."],
+        "context_set": ""
+    },
+    {
+        "tag": "metode ancaman cyber",
+        "patterns": ["apa saja metode ancaman cyber","jenis-jenis ancaman cyber","tipe ancaman cyber"],
+        "responses": ["1. malware, 2.injeksi SQL, 3. Phising, 4. serangan Man-in-the-middle, 5. serangan Denial-of-Service "],
+        "context_set": ""
+    },
+    {
+        "tag": "malware",
+        "patterns": ["apa itu malware","definisi malware","malware adalah","maksud malware"],
+        "response": ["Malware atau malicious software adalah salah satu ancaman cyber paling umum. Perangkat lunak ini dibuat untuk mengganggu atau merusak komputer pengguna. Malware seringkali menyebar melalui lampiran email atau unduhan yang nampak sah."],
+        "context_set": ""
+    },
+    {
+        "tag": "jenis malware",
+        "patterns": ["jenis-jenis malware","macam-macam malware"],
+        "responses": ["virus, trojans, spyware, ransomware, adware, bootnate"],
+        "context_set": ""
+    },
+    {
+        "tag": "virus",
+        "patterns": ["virus adalah","pengertian virus","definisi virus","maksud virus"],
+        "responses": ["Program yang mereplikasi diri, menempel pada file bersih dan menyebar ke seluruh sistem komputer. Virus menginfeksi file dengan kode berbahaya."],
+        "context_set": ""
+    },
+    {
+        "tag": "spyware",
+        "patterns": ["spyware adalah","definisi spyware","maksud spyware"],
+        "responses": ["Program ini secara diam-diam merekam apa yang dilakukan pengguna, sehingga penjahat dunia maya dapat menggunakan informasi ini. Misalnya spyware digunakan untuk menangkap detail kartu kredit."],
+        "context_set": ""
+    },
+    {
+        "tag": "ransomware",
+        "patterns": ["ransomeware adalah","definisi ransomeware","maksud ransomeware"],
+        "responses": ["Malware yang mengunci file dan data pengguna, dengan ancaman akan menghapusnya kecuali pemilik data membayar tebusan."],
+        "context_set": ""
+    },
+    {
+        "tag": "adware",
+        "patterns": ["apa itu adware","definisi adware","adware adalah","maksud adware adalah"],
+        "responses": ["Perangkat lunak periklanan yang dapat digunakan untuk menyebarkan malware."],
+        "context_set": ""
+    },
+    {
+        "tag": "botnet",
+        "patterns": ["definisi botnet","botnet adalaha","maksud botnet adalah","apa itu botnet"],
+        "responses": ["Jaringan komputer yang terinfeksi malware dapat digunakan penjahat cyber untuk melakukan aktivitas secara online tanpa izin pengguna."],
+        "context_set": ""
+    },
+    {
+        "tag": "injeksi SQL",
+        "patterns": ["definisi injeksi sql","apa itu injeksi sql","injeksi sql adalah","maksud injeksi sql adalah"],
+        "responses": ["Injeksi SQL (structured query language) adalah jenis ancaman cyber yang digunakan untuk mengambil kendali dan mencuri data dari pusat data."],
+        "context_set": ""
+    },
+    {
+        "tag": "phising",
+        "patterns": ["definisi phising","phising adalah","maksud phising","pengertian phising"],
+        "responses": ["phising adalah Serangan yang sering digunakan untuk menipu orang agar memberikan data dan informasi pribadi."],
+        "context_set": ""
+    },
+    {
+        "tag": "Man-in-The Middle",
+        "patterns": ["Man in the middle adalah","definisi man in the middle","pengertian man in the middle"],
+        "responses": ["Ancaman jenis ini berbentuk penyadapan komunikasi antara dua individu untuk mencuri data. Misalnya, pada jaringan WIFI yang tidak aman, penyerang dapat mencegat data yang dikirimkan dari perangkat dan jaringan korban."],
+        "context_set": ""
+    },
+    {
+        "tag": "denial of service",
+        "patterns": ["definisi denial of service","denial of service adalah","maksud denial of service","apa itu denial of service"],
+        "responses": ["Metode cyber crime ini mencegah sistem komputer memenuhi permintaan akses yang sah. Caranya dengan membanjiri jaringan dan server dengan traffic, sehingga sistem tidak bisa dijalankan."],
+        "context_set": ""
+    },
+    {
+        "tag": "game computer dan game mobile",
+        "patterns": ["apa perbedaan game computer dan game mobile","beda game computer dan game mobile","game computer dan mobile","game computer vs game mobile"],
+        "responses": ["Secara garis besar game komputer dan game mobile adalah sama"],
+        "context_set": ""
+    },
+    {
+        "tag": "game mobile device",
+        "patterns": ["apa yang perlu diperhatikan saat membuat game mobile device","aspek penting dalam game mobile device","game mobile device"],
+        "responses": ["Hal yang perlu diperhatikan adalah masalah resolusi layar yang lebih kecil dan memori atau kemampuan komputasi yang sangat terbatas."],
+        "context_set": ""
+    },
+    {
+        "tag": "flash pada game 3D",
+        "patterns": ["bisa kah game 3D menggunakan flash","game 3D gunakan flash"],
+        "responses": ["Bisa, flash sudah mendukung hardware acceleration dan menambah fitur actionscript 3 untuk mempermudah pembuatan komponen 3D dalam glash."],
+        "context_set": ""
+    },
+    {
+        "tag": "jual game",
+        "patterns": ["apakah game bisa dijual","game bisa dijual","game dapat dijual"],
+        "responses": ["Bisa, game yang telah dibuat dapat dijual"],
+        "context_set": ""
+    },
+    {
+        "tag": "cara jual game",
+        "patterns": ["bagaimana cara menjual game","cara jual game","jual game"],
+        "responses": ["Ada dua cara yang umum dilakukan untuk menjual game, yaitu menggunakan jasa website perantara yang menggunakan sistem mirip lelang, atau kita bisa juga menghubungi langsung portal-portal game yang ada"],
+        "context_set": ""
+    },
+    {
+        "tag": "durasi buat game",
+        "patterns": ["berapa lama durasi membuat game","waktu yang dihabiskan membuat game","lama pembuatan game"],
+        "responses": ["Durasi dalam pembuatan game sangat beragam tergantung jenis game yang dibuat"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu pada Gdevelop",
+        "patterns": ["apa saja menu yang terdapat pada Gdevelop", "menu yang terdapat pada Gdevelop","menu dalam Gdevelop"],
+        "responses": ["Terdapat menu file, project, image bank, scene, event, dan object"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu file pada Gdevelop",
+        "patterns": ["apa fungsi menu file pada Gdevelop","fungsi menu file","kegunaan menu file","guna menu file"],
+        "responses": ["Menu file berfungsi untuk membuat, menyimpan dan menutup project game yang dibuat"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu project pada Gdevelop",
+        "patterns": ["apa fungsi menu project pada Gdevelop","fungsi menu project","kegunaan menu project","guna menu project"],
+        "responses": ["Menu ini digunakan untuk menampilkan file-file project yang dibuat"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu image bank pada Gdevelop",
+        "patterns": ["apa fungsi menu image bank pada Gdevelop","fungsi menu image bank", "kegunaan menu image bank","guna menu image bank"],
+        "responses": ["Menu image bank ini digunakan untuk menambahkan gambar-gambar objek pada game yang dibuat"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu scane pada Gdevelop",
+        "patterns": ["apa fungsi menu scane pada Gdevelop","fungsi menu scane","kegunaan menu scane","guna menu scane"],
+        "responses": ["Menu ini digunakan untuk melakukan editing objek sekaligus preview jalannya game"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu event pada Gdevelop",
+        "patterns": ["apa fungsi menu event pada Gdevelop","fungsi menu event","kegunaan menu event","guna menu event"],
+        "responses": ["Menu ini digunakan untuk menambahkan event atau kondisi-kondisi yang diberikan kepada objek agar objek dapat melakukan aksi aksi atau tindakan sesuai yang diinginkan"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu object pada Gdevelop",
+        "patterns": ["apa fungsi menu object pada Gdevelop","fungsi menu object","kegunaan menu object","guna menu object"],
+        "responses": ["Menu ini digunakan untuk menambahkan dan mengedit objek yang akan digunakan dalam pembuatan game"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu RPG Maker",
+        "patterns": ["apa saja menu yang ada pada RPG Maker","menu pada RPG Maker","menu RPG Maker"],
+        "responses": ["Menu bar, tool bar, pallet, map list, map view, dan status bar"],
+        "context_set": ""
+    },
+    {
+        "tag": "tools menu bar",
+        "patterns": ["apa saja tools yang terdapat dalam menu bar","tools pada menu bar","menu bar terdapat tools"],
+        "responses": ["Pada menu bar terdapat menu file, menu edit, menu mode, menu draw, menu scale, menu tools, menu game, dan menu help"],
+        "context_set": ""
+    },
+    {
+        "tag": "fungsi tool bar RPG Maker",
+        "patterns": ["apa saja fungsi tool bar pada RPG Maker","fungsi tool bar","kegunaan tool bar","guna toolbar"],
+        "responses": ["Pada tool bar terdapat tool-tools untuk melakukan pengeditan,dan eksekusi pada gambar."],
+        "context_set": ""
+    },
+    {
+        "tag": "kegunaan pallet RPG Maker",
+        "patterns": ["apa kegunaan pada pallet RPG Maker","kegunaan pallet","guna pallet"],
+        "responses": ["Pallet  terdapat berbagai macam bentuk bangunan atau gambar yang akan kita gunakan untuk memodifikasi map."],
+        "context_set": ""
+    },
+    {
+        "tag": "fungsi map list RPG Maker",
+        "patterns": ["apa saja fungsi map list pada RPG Maker","fungsi map list","kegunaan map list","guna map list"],
+        "responses": ["Map List berguna untuk melihat map mana saja yang telah kita buat,dan untuk menampilkan setiap susunan map dari awal sampai akhir."],
+        "context_set": ""
+    },
+    {
+        "tag": "fungsi map view RPG Maker",
+        "patterns": ["apa saja fungsi map view pada RPG Maker","fungsi map view","kegunaan map view","guna map view"],
+        "responses": ["Berguna untuk melihat tampilan map yang sedang kita edit atau kita kerjakan."],
+        "context_set": ""
+    },
+    {
+        "tag": "fungsi status bar RPG Maker",
+        "patterns": ["apa saja fungsi status bar pada RPG Maker","fungsi status bar","kegunaan status bar","guna status bar"],
+        "responses": ["Berguna untuk melihat nama map dan titik koordinat suatu objek yang sedang kita edit."],
+        "context_set": ""
+    },
+    {
+        "tag": "menu file RPG Maker",
+        "patterns": ["apa saja fungsi menu file pada RPG Maker","fungsi menu file","kegunaan menu file","guna menu file"],
+        "responses": ["Menu file berguna untuk menambahkan Projek Baru (New Projek), Membuka Projek Yang Sudah ada (Open Projek), Menutup Projek (Close Projek), Menyimpan Projek(Save Projek), dan Deployment"],
+        "context_set": ""
+    },
+    {
+        "tag": "fungsi deployment RPG Maker",
+        "patterns": ["apa saja fungsi status bar pada RPG Maker","fungsi status bar","kegunaan status bar","guna status bar"],
+        "responses": ["Deployment berguna untuk mengexport game pada Berbagai Format seperti  Windows,Mac OS x,Android atau IOS,dan Web Browser."],
+        "context_set": ""
+    },
+    {
+        "tag": "menu edit RPG Maker",
+        "patterns": ["apa saja fungsi menu edit pada RPG Maker","fungsi menu edit","kegunaan menu edit","guna menu edit"],
+        "responses": ["Pada menu edit kita dapat melakukan undo, cut, copy, paste, dan delete"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu mode RPG Maker",
+        "patterns": ["apa kegunaan menu mode pada RPG Maker","fungsi menu mode","kegunaan menu mode","guna menu mode"],
+        "responses": ["Pada menu mode, kita dapat mengubah tampilan layar sesuai kebutuhan"],
+        "context_set": ""
+    },
+    {
+        "tag": "map pada menu mode",
+        "patterns": ["apa kegunaan map pada menu mode","fungsi map","kegunaan map","guna map"],
+        "responses": ["Map berguna untuk mengedit map sesuai dengan apa yang kita inginkan"],
+        "context_set": ""
+    },
+    {
+        "tag": "event pada menu mode",
+        "patterns": ["apa kegunaan event pada menu mode","fungsi event","kegunaan event","guna event"],
+        "responses": ["Event Berguna untuk menambahkan event pada karakter,map dll."],
+        "context_set": ""
+    },
+    {
+        "tag": "menu draw RPG Maker",
+        "patterns": ["apa kegunaan menu draw","fungsi menu draw","kegunaan menu draw","guna draw"],
+        "responses": ["Pada menu draw kita dapat memilih bentuk kuas yang diinginkan seperti pencil, rectangle, ellips, flood fill, dan shadow pen"],
+        "context_set": ""
+    },
+    {
+        "tag": "menu scale RPG Maker",
+        "patterns": ["apa kegunaan menu scale","fungsi menu scale","kegunaan menu scale","guna menu scale"],
+        "responses": ["Pada menu scale kita dapat mensetting ukuran tampilan map seperti zoom in dan zoom out."],
+        "context_set": ""
+    },
+    {
+        "tag": "menu tools RPG Maker",
+        "patterns": ["apa kegunaan menu tools","fungsi menu tools","kegunaan menu tools","guna menu tools"],
+        "responses": ["Pada menu ini berfungsi untuk pengeditan data base, plugin manager, event searcher, character generator, dan resource manager."],
+        "context_set": ""
+    },
+    {
+        "tag": "menu game RPG Maker",
+        "patterns": ["apa kegunaan menu game","fungsi menu game","kegunaan menu game","guna menu game"],
+        "responses": ["Pada menu game kita dapat menjalankan suatu game seperti playtest dan open folder."],
+        "context_set": ""
+    },
+    {
+        "tag": "menu help RPG Maker",
+        "patterns": ["apa kegunaan menu help","fungsi menu help","kegunaan menu help","guna menu help"],
+        "responses": ["Menu help berguna untuk membantu pengguna dan memberikan arahan seputar RPG Maker."],
+        "context_set": ""
+    },
+    {
+        "tag": "kelebihan Lamberyard",
+        "patterns": ["apa kelebihan Lamberyard","kelebihan Lamberyard","keunggulan Lamberyard"],
+        "responses": ["Software ini memiliki integrasi ke fasilitas cloud dan layanan streaming serta mendapatkan dukungan dari amazon."],
+        "context_set": ""
+    },
+    {
+        "tag": "kekurangan Lamberyard",
+        "patterns": ["apa kekurangan Lamberyard","kekurangan Lamberyard","kelemahan Lamberyard"],
+        "responses": ["Kekurangan dari software ini adalah membutuhkan hardware yang mumpuni agar visual tampil optimal dan butuh internet untuk mengaksesnya."],
+        "context_set": ""
+    },
+    {
+        "tag": "kelebihan Cryengine",
+        "patterns": ["apa kelebihan Cryengine","kelebihan Cryengine","keunggulan Cryengine"],
+        "responses": ["Cryengine memiliki tools pembuatan game 3D yang lengkap serta detail visualnya bagus."],
+        "context_set": ""
+    },
+    {
+        "tag": "kekurangan Cryengine",
+        "patterns": ["apa kekurangan Cryengine","kekurangan Cryengine","kelemahan Cryengine"],
+        "responses": ["Kekurangan dari software ini membutuhkan hardware performa yang tinggi dan tidak cocok untuk pemula."],
+        "context_set": ""
+    },
+    {
+        "tag": "kelebihan Unity",
+        "patterns": ["apa kelebihan Unity","kelebihan Unity","keunggulan Unity"],
+        "responses": ["Unity cocok untuk games 2D dan 3D bervisual detail, tersedia banyak aset yang siap untuk dipakai serta memiliki dukungan penuh untuk pengembangan games mobile."],
+        "context_set": ""
+    },
+    {
+        "tag": "kekurangan Unity",
+        "patterns": ["apa kekurangan Unity","kekurangan Unity","kelemahan Unity"],
+        "responses": ["Kekurangan dari software ini ialah skema lisensi yang cukup rumit."],
+        "context_set": ""
+    },
+    {
+        "tag": "perbedaan unreal engine dan cryengine",
+        "patterns": ["apa perbedaan unreal engine dan cryengine ","perbedaan unreal engine dan cryengine","unreal engine vs cryengine"],
+        "responses": ["Kualitas grafis Unreal tidak kalah hebat dibandingkan CryEngine, bahkan bisa dibilang Unreal memiliki UI yang lebih rapi dan ramah pengguna."],
+        "context_set": ""
+    },
+    {
+        "tag": "pemrograman unreal engine",
+        "patterns": ["bahasa pemrograman apa yang digunakan unreal engine","bahasa pemrograman","pemrograman pada unreal engine"],
+        "responses": ["Bahasa pemrograman yang digunakan pada unreal engine adalah C++."],
+        "context_set": ""
+    },
+    {
+        "tag": "kelebihan Unreal engine",
+        "patterns": ["apa kelebihan Unreal engine","kelebihan Unreal engine","keunggulan Unreal engine"],
+        "responses": ["Kelebihan Unreal engine ialah memiliki performa bagus, merupakan pilihan yang tepat untuk pembuatan games VR, dan memiliki editor internal yang nyaman untuk pemula."],
+        "context_set": ""
+    },
+    {
+        "tag": "kekurangan Unreal engine",
+        "patterns": ["apa kekurangan Unreal engine","kekurangan Unreal engine","kelemahan Unreal engine"],
+        "responses": ["Kekurangan dari software ini ialah kurang cocok untuk proyek solo dan butuh hardware dengan performa yang tinggi."],
+        "context_set": ""
+    },
+    {
+        "tag": "penting dalam game",
+        "patterns": ["hal apa yang perlu diperhatikan dalam game","perhatikan dalam game","penting dalam membuat game"],
+        "responses": ["Sesuatu yang penting dalam membuat game adalah adanya storyboard."],
+        "context_set": ""
+    },
+    {
+        "tag": "storyboard",
+        "patterns": ["apa itu storyboard","storyboard adalah","pengertian storyboard","storyboard merupakan"],
+        "responses": ["Storyboard adalah sebuah sebuah desain sketsa gambar yang disusun secara berurutan sesuai dengan naskah cerita yang telah dibuat."],
+        "context_set": ""
+    },
+    {
+        "tag": "fungsi storyboard",
+        "patterns": ["apa fungsi storyboard","kegunaan storyboard","guna storyboard"],
+        "responses": ["Storyboard digunakan untuk menggambarkan alur cerita secara garis besar mulai dari awal, pertengahan, hingga akhir dari game serta untuk memudahkan dalam membuat dan memahami alur cerita atau naskah dalam suatu game yang dibuat."],
+        "context_set": ""
+    },
+    {
+        "tag": "manfaat storyboard",
+        "patterns": ["apa manfaat storyboard","manfaat dari storyboard adalah","manfaat storyboard"],
+        "responses": ["Manfaat dari adanya storyboard adalah untuk mempermudah dan mempercepat dalam proses pembuatan sebuah game."],
+        "context_set": ""
+    },
+    {
+        "tag": "user interface",
+        "patterns": ["pengertian user interface","apa itu user interface","user interface adalah","user interface merupakan"],
+        "responses": ["User interface merupakan salah satu elemen penting dalam pembuatan game dan dapat menentukan kualitas game, Jika user face tidak menarik maka game dapat terasa membosankan dan tidak menarik untuk dimainkan."],
+        "context_set": ""
+    },
+    {
+        "tag": "user interface penting",
+        "patterns": ["hal apa yang perlu diperhatikan user interface","perhatikan dalam user interface","penting dalam user interface"],
+        "responses": ["Hal yang perlu diperhatikan dalam user interface adalah pemilihan font, warna background, letak atau posisi tiap bagian dalam menu, jenis tulisan, warna tulisan dan sebagainya."],
+        "context_set": ""
+    },
+    {
+        "tag": "frame selected pada unity",
+        "patterns": ["apa fungsi frame selected","fungsi frame selected","kegunaan frame selected"],
+        "responses": ["Frame selected pada unity berfungsi untuk memilih kerangka object."],
+        "context_set": ""
+    },
+    {
+        "tag": "Lock View to Selected pada unity",
+        "patterns": ["apa fungsi Lock View to Selected","fungsi Lock View to Selected","kegunaan Lock View to Selected"],
+        "responses": ["Lock View to Selected pada unity berfungsi untuk mengunci object yang dipilih."],
+        "context_set": ""
+    },
+    {
+        "tag": "Preferences pada unity",
+        "patterns": ["apa fungsi Preferences","fungsi Preferences","kegunaan Preferences"],
+        "responses": ["Preferences pada unity berfungsi untuk mengatur komponen eksternal."],
+        "context_set": ""
+    },
+    {
+        "tag": "Modules pada unity",
+        "patterns": ["apa fungsi Modules","fungsi Modules","kegunaan Modules"],
+        "responses": ["Modules pada unity berfungsi untuk memilih tipe perangkat build."],
+        "context_set": ""
+    },
+    {
+        "tag": "Project Settings pada unity",
+        "patterns": ["apa fungsi Project Settings","fungsi Project Settings","kegunaan Project Settings"],
+        "responses": ["Project Settings pada unity berfungsi untuk pengaturan pembuatan game, seperti audio, graphic, player, quality, jaringan, dll."],
+        "context_set": ""
+    },
+    {
+        "tag": "Network Emulation  pada unity",
+        "patterns": ["apa fungsi Network Emulation ","fungsi Network Emulation ","kegunaan Network Emulation "],
+        "responses": ["Modules pada unity berfungsi untuk memilih salah satu tipe jaringan."],
+        "context_set": ""
+    },
+    {
+        "tag": "Graphics Emulation pada unity",
+        "patterns": ["apa fungsi Graphics Emulation","fungsi Graphics Emulation","kegunaan Graphics Emulation"],
+        "responses": ["Graphics Emulation pada unity berfungsi untuk memilih salah satu tipe grafik game."],
+        "context_set": ""
+    },
+    {
+        "tag": "Import New Assets pada unity",
+        "patterns": ["apa fungsi Import New Assets","fungsi Import New Assets","kegunaan Import New Assets"],
+        "responses": ["Import New Assets  pada unity berfungsi untuk mengambil assets dari drive."],
+        "context_set": ""
+    },
+    {
+        "tag": "Import Package pada unity",
+        "patterns": ["apa fungsi Import Package","fungsi Import Package","kegunaan Import Package"],
+        "responses": ["Import Package pada unity berfungsi untuk mengambil assets yang telah ada dalam Unity3D."],
+        "context_set": ""
+    },
+    {
+        "tag": "Sync MonoDevelop Project pada unity",
+        "patterns": ["apa fungsi Sync MonoDevelop Project","fungsi Sync MonoDevelop Project","kegunaan Sync MonoDevelop Project"],
+        "responses": ["Sync MonoDevelop Project pada unity berfungsi untuk membuka MonoDevelop Unity."],
+        "context_set": ""
+    },
+    {
+        "tag": "Create Empty Child pada unity",
+        "patterns": ["apa fungsi Create Empty Child","fungsi Sync Create Empty Child","kegunaan Create Empty Child"],
+        "responses": ["Create Empty Child pada unity berfungsi untuk membuat game object baru yang masih kosong."],
+        "context_set": ""
+    },
+    {
+        "tag": "3D Object pada unity",
+        "patterns": ["apa fungsi 3D Object","fungsi 3D Object","kegunaan 3D Object"],
+        "responses": ["Create 3D Object pada unity berfungsi untuk menambahkan model 3D pada game."],
+        "context_set": ""
+    },
+    {
+        "tag": "2D Object pada unity",
+        "patterns": ["apa fungsi 2D Object","fungsi 2D Object","kegunaan 2D Object"],
+        "responses": ["Create 3D Object pada unity berfungsi untuk menambahkan model 2D pada game."],
+        "context_set": ""
+    },
+    {
+        "tag": "light pada unity",
+        "patterns": ["apa fungsi light","fungsi light","kegunaan light"],
+        "responses": ["Light pada unity berfungsi untuk menambahkan efek cahaya pada game."],
+        "context_set": ""
+    },
+    {
+        "tag": "UI pada unity",
+        "patterns": ["apa fungsi UI","fungsi UI","kegunaan UI"],
+        "responses": ["UI pada unity berfungsi untuk menambahkan pelengkap game, seperti teks, button, dll pada game."],
+        "context_set": ""
+    },
+    {
+        "tag": "Particle System pada unity",
+        "patterns": ["apa fungsi Particle System","fungsi Particle System","kegunaan Particle System"],
+        "responses": ["Particle System pada unity berfungsi untuk menambahkan efek gas dari object pada game."],
+        "context_set": ""
+    },
+    {
+        "tag": "Center On Children pada unity",
+        "patterns": ["apa fungsi Center On Children","fungsi Center On Children","kegunaan Center On Children"],
+        "responses": ["Center On Children pada unity berfungsi untuk membuat object menjadi rata tengah."],
+        "context_set": ""
+    },
+    {
+        "tag": "Apply Changes To Prefab pada unity",
+        "patterns": ["apa fungsi Apply Changes To Prefab","fungsi Apply Changes To Prefab","kegunaan Apply Changes To Prefab"],
+        "responses": ["Apply Changes To Prefab pada unity berfungsi untuk menyimpan pengaturan di prefab."],
+        "context_set": ""
+    },
+    {
+        "tag": "Set as first sibling pada unity",
+        "patterns": ["apa fungsi Set as first sibling","fungsi Set as first sibling","kegunaan Set as first sibling"],
+        "responses": ["Set as first sibling pada unity berfungsi untuk menyimpan saat penambahan object pertama."],
+        "context_set": ""
+    },
+    {
+        "tag": "Set as last sibling pada unity",
+        "patterns": ["apa fungsi Set as last sibling","fungsi Set as last sibling","kegunaan Set as last sibling"],
+        "responses": ["Set as last sibling pada unity berfungsi untuk menyimpan saat penambahan object yang lalu."],
+        "context_set": ""
+    },
+    {
+        "tag": "Toggle Active State pada unity",
+        "patterns": ["apa fungsi Toggle Active State","fungsi Toggle Active State","kegunaan Toggle Active State"],
+        "responses": ["Toggle Active State pada unity berfungsi  untuk menyembunyikan object dari penglihatan."],
+        "context_set": ""
+    },
+    {
+        "tag": "Align With View pada unity",
+        "patterns": ["apa fungsi Align With View","fungsi Align With View","kegunaan Align With View"],
+        "responses": ["Align With View pada unity berfungsi untuk memindahkan penglihatan object menjadi tampil dari belakang."],
+        "context_set": ""
+    },
+    {
+        "tag": "Move to View pada unity",
+        "patterns": ["apa fungsi Move to View","fungsi Move to View","kegunaan Move to View"],
+        "responses": ["Move to View pada unity berfungsi untuk memindahkan penglihatan object menjadi tampil dari depan."],
+        "context_set": ""
+    },
+    {
+        "tag": "Script pada unity",
+        "patterns": ["apa fungsi Script","fungsi Script","kegunaan Script"],
+        "responses": ["Script pada unity berfungsi untuk menambahkan script pada object yang dipilih."],
+        "context_set": ""
+    },
+    {
+        "tag": "Miscellaneous pada unity",
+        "patterns": ["apa fungsi Miscellaneous","fungsi Miscellaneous","kegunaan Miscellaneous"],
+        "responses": ["Miscellaneous pada unity berfungsi untuk menambahkan komponen pengeditan animasi."],
+        "context_set": ""
+    },
+    {
+        "tag": "Rendering pada unity",
+        "patterns": ["apa fungsi Rendering","fungsi Rendering","kegunaan Rendering"],
+        "responses": ["Miscellaneous pada unity berfungsi untuk menambahkan komponen randering."],
+        "context_set": ""
+    },
+    {
+        "tag": "Mesh pada unity",
+        "patterns": ["apa fungsi tools Mesh","fungsi tools Mesh","kegunaan tools Mesh"],
+        "responses": ["Tools mesh pada unity berfungsi untuk menambahkan komponen mesh pada object."],
+        "context_set": ""
+    },
+    {
+        "tag": "Physics pada unity",
+        "patterns": ["apa fungsi tools Physics","fungsi tools Physics","kegunaan tools Physics"],
+        "responses": ["Tools Physics pada unity berfungsi untuk menambahkan komponen fisik pada object 3D."],
+        "context_set": ""
+    },
+    {
+        "tag": "Break Prefab Instance pada unity",
+        "patterns": ["apa fungsi Break Prefab Instance ","fungsi Break Prefab Instance","kegunaan Break Prefab Instance"],
+        "responses": ["Break Prefab Instance pada unity berfungsi untuk berhenti melihat prefab."],
+        "context_set": ""
+    },
+    {
+        "tag": "Snap Settings pada unity",
+        "patterns": ["apa fungsi Snap Settings ","fungsi Snap Settings","kegunaan Snap Settings"],
+        "responses": ["Snap Settings pada unity berfungsi untuk mengatur Snap dalam sebuah game."],
+        "context_set": ""
+    },
+    {
+        "tag": "Build Setting pada unity",
+        "patterns": ["apa fungsi Build Setting","fungsi Build Setting","kegunaan Build Setting"],
+        "responses": ["Build Setting pada unity berfungsi untuk mengatur game kedalam format yang diinginkan."],
+        "context_set": ""
+    },
+    {
+        "tag": "Build and Run pada unity",
+        "patterns": ["apa fungsi Build and Run","fungsi Build and Run","kegunaan Build and Run"],
+        "responses": ["Build and Run pada unity berfungsi untuk mengatur game kedalam format yang diinginkan lalu menjalankannya."],
+        "context_set": ""
+    },
+    {
+        "tag": "Build in Clould  pada unity",
+        "patterns": ["apa fungsi Build in Clould ","fungsi Build in Clould ","kegunaan Build in Clould"],
+        "responses": ["Build in Clould pada unity berfungsi untuk menjadikan game dengan pergi ke web unity."],
+        "context_set": ""
+    },
+    {
+        "tag": "Find pada unity",
+        "patterns": ["apa fungsi Find","fungsi Find","kegunaan Find"],
+        "responses": ["Find pada unity berfungsi untuk mencari objek yang diinginkan dengan cepat."],
+        "context_set": ""
+    },
+    {
+        "tag": "definisi variety",
+        "patterns": ["apa itu variety","variety pada big data","apa yang dimaksud dengan variety","apa arti variety pada big data","variety","variety big data","maksud dari variety pada big data","yang dimaksud dengan variety"],
+        "responses": ["Jenis variasi data yang dimiliki oleh big data lebih banyak daripada menggunakan sistem database SQL. Jenis data yang masih bersifat tradisional, lebih terstruktur daripada data yang belum terstruktur. Contohnya adalah teks, audio, dan video merupakan data yang belum terdefinisikan secara langsung dan harus melalui beberapa tahap untuk dapat diproses dalam sebuah database."],
+        "context_set": ""},
+    {
+        "tag": "definisi veracity",
+        "patterns": ["apa itu veracity","veracity pada big data","apa yang dimaksud dengan veracity ","apa arti veracity pada big data ","veracity","veracity big data","maksud dari veracity pada big data","yang dimaksud dengan veracity"],
+        "responses": ["Jenis variasi data yang dimiliki oleh big data lebih banyak daripada menggunakan sistem database SQL. Jenis data yang masih bersifat tradisional, lebih terstruktur daripada data yang belum terstruktur. Contohnya adalah teks, audio, dan video merupakan data yang belum terdefinisikan secara langsung dan harus melalui beberapa tahap untuk dapat diproses dalam sebuah database."],
+        "context_set": ""
+    },
+    {
+        "tag": "definisi value",
+        "patterns": ["apa itu value","value pada big data","apa yang dimaksud dengan value ","apa arti value pada big data ","value","value big data","maksud dari value pada big data","yang dimaksud dengan value"],
+        "responses": ["Walaupun big data terkesan besar dan tidak ada habisnya, namun big data mempunyai banyak manfaat pada berbagai bidang. Pemanfaatan tersebut merupakan hasil dari 4V sebelumnya dan diubah menjadi sebuah nilai yang bermanfaat bagi individu, perusahaan ataupun organisasi."],
+        "context_set": ""
+    },
+    {
+        "tag": "big data pada bidang teknologi informasi",
+        "patterns": ["manfaat big data pada bidang teknologi informasi","fungsi big data pada teknologi","manfaat big data pada telekomunikasi","manfaat big data pada teknologi informasi","fungsi big data pada teknologi informasi","manfaat big data pada teknologi","kegunaan big data pada telekomunikasi","kegunaan big data pada teknologi informasi"],
+        "responses": ["Salah satu contoh yang mudah untuk anda lihat adalah aplikasi GPS yang tentunya sudah terinstall dalam perangkat anda. GPS (Global Positioning System) yang dimiliki oleh Google Maps menggunakan bantuan dari big data dalam memproses dan memanajemen berbagai bentuk data. Karena, sistem database yang dibutuhkan sangat besar. Mulai dari gambar, pemetaan lokasi hingga dapat menjangkau hampir seluruh penjuru dunia sekaligus. Tentunya membutuhkan sebuah basis data dengan kapasitas yang sangat besar."],
+        "context_set": ""
+    },
+    {
+        "tag": "big data pada media sosial",
+        "patterns": ["manfaat big data pada media sosial","fungsi big data pada media sosial","manfaat big data pada media sosial","manfaat big data pada media sosial","fungsi big data pada media sosial","manfaat big data pada media sosial","kegunaan big data pada media sosial","kegunaan big data pada media sosial"],
+        "responses": ["setiap orang menggunakan yang namanya media sosial untuk mengakses berbagai informasi dan membagikan aktivitas keseharian pribadi. Tentunya, banyak yang mengupload foto, video maupun teks ke dalam aplikasi media sosial tersebut. Semua informasi tersebut merupakan jenis data yang akan terekam dan tersimpan dalam sistem basis data dengan kapasitas besar."],
+        "context_set": ""
+    },
+    {
+        "tag": "big data pada bidang bisnis",
+        "patterns": ["manfaat big data pada bidang bisnis","fungsi big data pada bidang bisnis","manfaat big data pada bidang bisnis","manfaat big data pada bidang bisnis","kegunaan big data pada bisnis"],
+        "responses": ["Contohnya, meningkatkan operasional bisnis, customer relationship management dan pengoptimalan pengalaman dengan aplikasi."],
+        "context_set": ""
+    },
+    {
+        "tag": "tools pada big data",
+        "patterns": ["tools untuk big data","aplikasi untuk membuat data besar","aplikasi yang digunakan untuk membuat big data","aplikasi big data","tools big data","tools yang digunakan pada big data","big data pakai aplikasi apa ","big data pakai tools apa "],
+        "responses": ["tableau, xplenty, rapidminer, pentaho, skytree, looker, domo, knime, sisense, cassandra"],
+        "context_set": ""
+    },
+    {
+        "tag": "big data analytics",
+        "patterns": ["apa itu data analisis ","data analytics","data analisis","big data analytics","big data analysis","fungsi big data analytics","fungsi data analysis","yang dimaksud dengan data analytics adalah"],
+        "responses": ["Data Analytics sendiri adalah serangkaian proses untuk menggali informasi atau insight dari kumpulan data. Informasi tersebut dapat berupa pola, korelasi, trend, dan lain sebagainya. Data analytics seringkali melibatkan teknik dan algoritma pengolahan data yang cukup kompleks seperti data mining maupun perhitungan statistik."],
+        "context_set": ""
+    },
+    {
+        "tag": "kategori pada big data analytics",
+        "patterns": ["kategori pada big data analytics","apa saja kategori pada big data analytics ","kategori data analytics","kategori data analisis","macam-macam big data analytics","berapa kategori pada big data analytics ","big data analytics ada apa saja ","jenis-jenis big data analisis"],
+        "responses": ["descriptive analytics, diagnostic analytics, predictive analytics dan prescriptive analytics."],
+        "context_set": ""
+    },
+    {
+        "tag": "descriptive analytics",
+        "patterns": ["apa itu descriptive analytics ","penjelasan tentang descriptive analytics","yang dimaksud dengan descriptive analytics","definisi descriptive analytics","descriptive analytics pada big data analytics","descriptive analytics","descriptive analytics big data","descriptive analytics pada kategori big data analytics adalah"],
+        "responses": ["Analisis ini digunakan untuk menjawab pertanyaan mengenai apa yang sedang terjadi. Hampir semua organisasi telah mengimplementasikan analisis jenis ini."],
+        "context_set": ""
+    },
+    {
+        "tag": "diagnostic analytics",
+        "patterns": ["apa itu diagnostic analytics","penjelasan tentang diagnostic analytics","yang dimaksud dengan diagnostic analytics","definisi diagnostic analytics","diagnostic analytics pada big data analytics",
+            "diagnostic analytics",
+            "diagnostic analytics big data",
+            "diagnostic analytics pada kategori big data analytics adalah"
+        ],
+        "responses": [
+            "Setelah mengetahui apa yang terjadi, biasanya pertanyaan berikutnya adalah mengapa bisa terjadi. Analisa jenis ini menggunakan drill-down data untuk mencari alasan lebih mendalam mengenai apa yang sedang terjadi."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "predictive analytics",
+        "patterns": ["apa itu predictive analytics","penjelasan tentang predictive analytics","yang dimaksud dengan predictive analytics","definisi predictive analytics","predictive analytics pada big data analytics","predictive analytics","predictive analytics big data","predictive analytics pada kategori big data analytics adalah"],
+        "responses": ["Analisis prediktif memberikan prediksi mengenai apa yang akan terjadi berdasarkan data-data yang ada. Analisa jenis ini menggunakan teknik dan algoritma machine learning dan artificial intelligence untuk menghasilkan model prediksi berdasarkan data-data historis."],
+        "context_set": ""
+    },
+    {
+        "tag": "prescriptive analytics",
+        "patterns": ["apa itu prescriptive analytics","penjelasan tentang prescriptive analytics","yang dimaksud dengan prescriptive analytics","definisi prescriptive analytics","prescriptive analytics pada big data analytics","prescriptive analytics","prescriptive analytics big data","prescriptive analytics pada kategori big data analytics adalah"],
+        "responses": ["Memanfaatkan analisis deskriptif dan prediktif, analisis jenis ini memberikan insight untuk dapat memperoleh hasil yang sesuai dengan apa yang telah diprediksikan."],
+        "context_set": ""
+    },
+    {
+        "tag": "software gis",
+        "patterns": ["software yang digunakan untuk gis","untuk membuat gis pakai software apa ","software gis","software untuk gis","membuat gis pakai apa","aplikasi gis","software pada gis","software gratis untuk membuat gis"],
+        "responses": ["QGIS, gvSIG, whitebox GAT, saga gis, grass gis, mapwindow, dll."],
+        "context_set": ""
+    },
+    {
+        "tag": "aplikasi sumber daya alam",
+        "patterns": ["contoh penerapan sumber daya alam pada gis","penerapan sumber daya alam gis","contoh aplikasi pengolahan sumber daya alam","contoh pengolahan sumber daya alam pada gis","aplikasi sumber daya alam gis","pengolahan sumber daya alam gis","sumber daya alam pada gis","contoh pengolahan sumber daya alam pada gis"],
+        "responses": ["analisis dampak lingkungan."],
+        "context_set": ""
+    },
+    {
+        "tag": "komponen kunci gis",
+        "patterns": ["komponen kunci gis","4 komponen kunci gis","komponen utama gis","komponen penting gis","hal utama pada gis","4 hal utama pada gis","4 poin penting pada gis","poin utama pada gis"],
+        "responses": ["data geografi, manusia, perangkat keras, perangkat lunak."],
+        "context_set": ""
+    },
+    {
+        "tag": "metode gis",
+        "patterns": ["metode gis","metode pada gis","apa aja metode pada gis ","metode gis terdiri dari ","metode di gis","metode yang ada di gis","metode yang terdapat pada gis","metode gis ada apa saja "],
+        "responses": ["Sistematis, regional, deskriptif."],
+        "context_set": ""
+    },
+    {
+        "tag": "manajemen tata guna lahan gis",
+        "patterns": ["manfaat gis untuk lahan","manfaat gis untuk tata lahan","apa manfaat gis untuk tata lahan ","adakah manfaat gis untuk tata lahan ","manfaat gis untuk lahan di bumi","manfaat gis terhadap lahan","kegunaan gis pada tata lahan","kegunaan gis pada guna lahan"],
+        "responses": ["Sistem informasi geografis juga dapat membatu perencanaan di setiap lawasan dalam penggunaan lahan di kota yang terbagi menjadi pemukiman, industri, perdagangan, perkantoran, fasilitas umum dan jalur hijau dan hasilnya juga bisa digunakan sebagai acuan dalam pengembangan fasilitas-fasilitas yang dibutuhkan."],
+        "context_set": ""
+    },
+    {
+        "tag": "inventaris sumber daya alam gis",
+        "patterns": ["manfaat gis untuk inventaris alam","manfaat gis untuk inventaris sumber daya alam","apa manfaat gis untuk inventaris sumber daya alam ","adakah manfaat gis untuk inventaris sumber daya alam ","manfaat gis untuk inventaris sumber daya alam di bumi","manfaat gis terhadap inventaris sumber daya alam","kegunaan gis pada sumber daya alam","kegunaan gis pada inventaris sumber daya alam"],
+        "responses": ["Agar mengetahui persebaran beberapa sumber daya alam, seperti minyak bumi, batubara, emas, besi dan bahan tambang lain, untuk mengetahui persebaran area lahan, seperti area lahan yang potensial dan lahan kritis, untuk mengetahui hutan yang masih terjaga dan layak serta hutan yang telah rusak."],
+        "context_set": ""
+    },
+    {
+        "tag": "pengawasan daerah bencana alam gis",
+        "patterns": ["manfaat gis untuk pengawasan daerah bencana alam","manfaat gis untuk daerah bencana alam","apa manfaat gis untuk pengawasan daerah bencana alam ","adakah manfaat gis untuk pengawasan daerah bencana alam ","manfaat gis untuk pengawasan daerah bencana alam di bumi","manfaat gis terhadap pengawasan daerah bencana alam","kegunaan gis pada daerah bencana alam","kegunaan gis pada pengawasan daerah bencana alam"],
+        "responses": ["Melihat luas daerah bencana alam, untuk pencegahan apabila terjadi bencana alam di masa mendatang, menentukan tingkat bahaya erosi, memprediksi ketinggian banjir"],
+        "context_set": ""
+    },
+    {
+        "tag": "perencanaan kota dan wilayah gis",
+        "patterns": ["manfaat gis untuk perencanaan kota dan wilayah","manfaat gis untuk kota dan wilayah","apa manfaat gis untuk perencanaan kota dan wilayah ","adakah manfaat gis untuk perencanaan kota dan wilayah ","manfaat gis untuk perencanaan kota dan wilayah","manfaat gis terhadap pengawasan daerah bencana alam","kegunaan gis pada perencanaan kota dan wilayah","kegunaan gis kota dan wilayah"],
+        "responses": ["Sebagai contoh kesesuaian lahan, permukiman, pertanian, perkebunan, tata guna lahan, pertambangan dan energi, analisis kawasan rawan bencana."],
+        "context_set": ""
+    },
+    {
+        "tag": "komponen hardware gis",
+        "patterns": ["komponen hardware gis","apa itu hardware pada komponen gis","hardware pada gis","hardware gis","komponen hardware yang dibutuhkan pada gis","hardware untuk gis","perangkat keras gis","perangkat keras pada gis"],
+        "responses": ["Perangkat keras yaitu perangkat fisik yang merupakan salah satu bagian yang ada di sistem komputer untuk mendukung proses menganalisis dan pemetaan geografis. Perangkat keras GIS memiliki kemampuan untuk menampilkan gambar dengan resolusi dan kecepatan tinggi serta mendukung operasi berbasis data dengan volume data yang besar secara cepat. Hardware yang digunakan untuak sistem informasi geografis terdiri dari berbagai bagian yaitu importir data, pemrosesan data serta pemrosesan output printer."],
+        "context_set": ""
+    },
+    {
+        "tag": "komponen software gis",
+        "patterns": ["komponen software gis","apa itu software pada komponen gis","software pada gis","software gis","komponen software yang dibutuhkan pada gis","software untuk gis","perangkat lunak gis","perangkat lunak pada gis"],
+        "responses": ["Software atau perangkat lunak adalah alat yang digunakan untuk melakukan proses penyimpanan, analisis, visualisasi data secara spasial atau non spasial. Perangkat lunak terdiri didalam SIG terdiri dari alat untuk mengimput dan memanipulasi data SIG, data Base Management System (DBMS), alat untuk analisa data, alat untuk menayangkan data dari hasil analisa"],
+        "context_set": ""
+    },
+    {
+        "tag": "manfaat cyber security",
+        "patterns": ["apa manfaat cyber security","manfaat cyber security","apa saja manfaat cyber security"],
+        "responses": ["Data sensitif terlindungi, menjaga produktifitas,waktu pemulihan yang lebih singkat, memastikan aksestabilitas website/ layanan online ada, membangun kepercayaan cutomers"],
+        "context_set": ""
+    },
+    {
+        "tag": "elemen cyber security",
+        "patterns": ["apa saja komponen cyber security","komponen cyber security yaitu","komponen cyber security"],
+        "reponses": ["1. Application security \n 2. Information security \n 3. Network security \n 4. Disaster recovery/business continuity planning \n 5. Operational security"],
+        "context_set": ""
+    },
+    {
+        "tag": "konsep cybersecurity",
+        "patterns": ["apa konsep cyber security?","berapa konsep cybersecurity ?","apa saja konsep cybersecurity"],
+        "responses": ["confidentiality (kerahasiaan), integrity (integritas), dan availability (ketersediaan) informasi. "],
+        "context_set": ""
+    },
+    {
+        "tag": "jumlah konsep dasar cyber security",
+        "patterns": ["berapa jumlah konsep dasar cyber security","dasar cyber security ada berapa","jumlah konsep cyber security"],
+        "responses": ["ada 3"],
+        "context_set": ""
+    },
+    {
+        "tag": "konsep cybersecurity",
+        "patterns": ["apa konsep cyber security?","berapa konsep cybersecurity ?","apa saja konsep cybersecurity"],
+        "responses": ["confidentiality (kerahasiaan), integrity (integritas), dan availability (ketersediaan) informasi. "
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "confidentiality",
+        "patterns": ["apa itu confidentiality","confidentiality","konsep kerahasiaan cyber security"],
+        "response": ["Confidentiality adalah usaha untuk merahasiakan atau menyimpan data,Praktiknya berupa tindakan mengontrol akses data agar tidak terjadi pencurian atau kebocoran data."],
+        "context_set": ""
+    },
+{
+        "tag": "intergrity",
+        "patterns": ["intergrity dalam cybersecurity adalah","apa itu intergrity","konsep intergrity"],
+        "responses": ["Integrity dalam teknologi informasi adalah upaya memberikan data yang konsisten, akurat, dan terpercaya."],
+        "context_set": ""
+    },
+    {
+        "tag": "availability",
+        "patterns": ["apa itu konsep availibility","availibality adalah","maksud availability"],
+        "responses": ["vailability mengacu pada ketersediaan data Anda. Dalam bisnis, tersedianya sistem, aplikasi dan data yang dapat diakses pelanggan adalah kewajiban."],
+        "context_set": ""
+    },
+    {
+        "tag": "penerapan cyber security",
+        "patterns": ["contoh penerapan cyber security","penerapan cyber security untuk kehidupan","penggunaan cyber security"],
+        "responses": ["penerapan utama cyber secuity ada 3 yaitu cloud security,network security, application security"],
+        "context_set": ""
+    },
+    {
+        "tag": "cloud security",
+        "patterns": ["cloud security adalah","maksud cloud security adalah","pengertian cloud security"],
+        "responses": ["Cloud security mengacu pada upaya individu atau kelompok dalam melindungi data yang tersimpan di cloud. Upaya perlindungan ini melibatkan teknologi, kebijakan kontrol dan layanan yang mendukung terciptanya keamanan cloud."],
+        "context_set": ""
+    },
+    {
+        "tag": "ancaman cloud security",
+        "patterns": ["contoh ancaman dalam cloud security","ancaman cloud security"],
+        "responses": ["Ancaman cloud security adalah penyalahgunaan data, pencurian data dan pembajakan traffic layanan. Penyedia layanan penyimpanan cloud yang buruk juga bisa mengancam kemanan cloud."],
+        "context_set": ""
+    },
+    {
+        "tag": "network security",
+        "patterns": ["network security adalah","maksud network security adalah","pengertian network security"],
+        "responses": ["Network security adalah praktik perlindungan jaringan internal Anda dengan meningkatkan keamanan jaringan. Network security sangat penting terutama bagi perusahaan yang menggunakan sistem jaringan dalam aktivitasnya."],
+        "context_set": ""
+    },
+    {
+        "tag": "ancaman network security",
+        "patterns": ["manfaat network security","penggunaan network security","fungsi network security"],
+        "responses": ["Network security berguna untuk melindungi aset perusahaan dari ancaman cyber crime. Selain itu, perlindungan jaringan membuat pengelolaan lalu-lintas jaringan lebih efisien."],
+        "context_set": ""
+    },
+    {
+        "tag": "application security",
+        "patterns": ["apa itu application security","pengertian application security","maksud application security"],
+        "responses": ["Application security adalah usaha melindungi dan meningkatkan keamanan aplikasi dari ancaman yang mungkin terjadi. Dalam website toko online misalnya. Anda perlu meningkatkan keamanan website untuk memastikan data Anda dan pelanggan aman dari ancaman peretas."],
+        "context_set": ""
+    },
+    {
+        "tag": "ancaman cyber",
+        "patterns": ["apa saja ancaman cyber","macam-macan ancaman cyber","jenis-jenis anacaman cyber","contoh ancaman cyber"],
+        "responses": ["1.cyber crime","cyber attack","cyber terorism"],
+        "context_set": ""
+    },
+    {
+        "tag": "cyber crime",
+        "patterns": ["cyber crime adalah","apa itu cyber crime","cyber crime","pengertian cyber crime","maksud cyber crime"],
+        "responses": ["Cyber crime adalah kejahatan yang menyasar sistem komputer. Pelaku melakukan akses ilegal, transmisi ilegal atau manipulasi data untuk tujuan tertentu. Di antaranya menciptakan gangguan dan mencari keuntungan finansial."],
+        "context_set": ""
+    },
+    {
+        "tag": "cyber attack",
+        "patterns": ["cyber attack adalah","pengertian cyber attack","definisi cyber attack","maksud cyber attack","cyber attack"],
+        "responses": ["cyber crime yang bisa menyasar siapa saja, target cyber attack biasanya melibatkan kepentingan politik. Aktivitas ini berusaha mengumpulkan informasi, mencuri data, hingga mengambil alih sistem targetnya"],
+        "context_set": ""
+    },
+    {
+        "tag": "cyber terorism",
+        "patterns": ["cyber terorism adalah","pengertian cyber terorism","definisi cyber terorism","maksud cyber terorism adalah"],
+        "responses": ["Cyber Terrorism mengacu pada usaha mengancam, provokasi atau intimidasi lewat sistem komputer. Aktivitas cyber ini sangat berbahaya karena menyebabkan kepanikan dan ketakutan skala besar."],
+        "context_set": ""
+    },
+    {
+        "tag": "metode ancaman cyber",
+        "patterns": ["apa saja metode ancaman cyber","jenis-jenis ancaman cyber","tipe ancaman cyber"],
+        "responses": ["1. malware, 2.injeksi SQL, 3. Phising, 4. serangan Man-in-the-middle, 5. serangan Denial-of-Service "],
+        "context_set": ""
+    },
+    {
+        "tag": "malware",
+        "patterns": ["apa itu malware","definisi malware","malware adalah","maksud malware"],
+        "response": ["Malware atau malicious software adalah salah satu ancaman cyber paling umum. Perangkat lunak ini dibuat untuk mengganggu atau merusak komputer pengguna. Malware seringkali menyebar melalui lampiran email atau unduhan yang nampak sah."],
+        "context_set": ""
+    },
+    {
+        "tag": "jenis malware",
+        "patterns": ["jenis-jenis malware","macam-macam malware"],
+        "responses": ["virus, trojans, spyware, ransomware, adware, bootnate"],
+        "context_set": ""
+    },
+    {
+        "tag": "virus",
+        "patterns": ["virus adalah","pengertian virus","definisi virus","maksud virus"],
+        "responses": ["Program yang mereplikasi diri, menempel pada file bersih dan menyebar ke seluruh sistem komputer. Virus menginfeksi file dengan kode berbahaya."],
+        "context_set": ""
+    },
+    {
+        "tag": "trojans",
+        "patterns": ["trojans adalah","definisi trojans","maksud trojans"],
+        "responses": ["Sejenis malware yang menyamar sebagai perangkat lunak yang sah. Penjahat cyber menipu pengguna agar mengunggah Trojan ke komputer mereka untuk mengumpulkan data atau menyebabkan kerusakan."],
+        "context_set": ""
+    },
+    {
+        "tag": "spyware",
+        "patterns": ["spyware adalah","definisi spyware","maksud spyware"],
+        "responses": ["Program ini secara diam-diam merekam apa yang dilakukan pengguna, sehingga penjahat dunia maya dapat menggunakan informasi ini. Misalnya spyware digunakan untuk menangkap detail kartu kredit."],
+        "context_set": ""
+    },
+    {
+        "tag": "ransomware",
+        "patterns": ["ransomeware adalah","definisi ransomeware","maksud ransomeware"],
+        "responses": ["Malware yang mengunci file dan data pengguna, dengan ancaman akan menghapusnya kecuali pemilik data membayar tebusan."],
+        "context_set": ""
+    },
+    {
+        "tag": "adware",
+        "patterns": ["apa itu adware","definisi adware","adware adalah","maksud adware adalah"],
+        "responses": ["Perangkat lunak periklanan yang dapat digunakan untuk menyebarkan malware."],
+        "context_set": ""
+    },
+    {
+        "tag": "botnet",
+        "patterns": ["definisi botnet","botnet adalaha","maksud botnet adalah","apa itu botnet"],
+        "responses": ["Jaringan komputer yang terinfeksi malware dapat digunakan penjahat cyber untuk melakukan aktivitas secara online tanpa izin pengguna."],
+        "context_set": ""
+    },
+    {
+        "tag": "injeksi SQL",
+        "patterns": ["definisi injeksi sql","apa itu injeksi sql","injeksi sql adalah","maksud injeksi sql adalah"],
+        "responses": ["Injeksi SQL (structured query language) adalah jenis ancaman cyber yang digunakan untuk mengambil kendali dan mencuri data dari pusat data."],
+        "context_set": ""
+    },
+    {
+        "tag": "phising",
+        "patterns": ["definisi phising","phising adalah","maksud phising","pengertian phising"],
+        "responses": ["phising adalah Serangan yang sering digunakan untuk menipu orang agar memberikan data dan informasi pribadi."],
+        "context_set": ""
+    },
+    {
+        "tag": "Man-in-The Middle",
+        "patterns": ["Man in the middle adalah","definisi man in the middle","pengertian man in the middle"],
+        "responses": ["Ancaman jenis ini berbentuk penyadapan komunikasi antara dua individu untuk mencuri data. Misalnya, pada jaringan WIFI yang tidak aman, penyerang dapat mencegat data yang dikirimkan dari perangkat dan jaringan korban."],
+        "context_set": ""
+    },
+    {
+        "tag": "denial of service",
+        "patterns": ["definisi denial of service","denial of service adalah","maksud denial of service","apa itu denial of service"],
+        "responses": ["Metode cyber crime ini mencegah sistem komputer memenuhi permintaan akses yang sah. Caranya dengan membanjiri jaringan dan server dengan traffic, sehingga sistem tidak bisa dijalankan."],
+        "context_set": ""
+    },
+    {
+        "tag": "manfaat cyber security",
+        "patterns": ["apa manfaat cyber security","manfaat cyber security","apa saja manfaat cyber security"],
+        "responses": ["Data sensitif terlindungi, menjaga produktifitas,waktu pemulihan yang lebih singkat, memastikan aksestabilitas website/ layanan online ada, membangun kepercayaan cutomers"],
+        "context_set": ""
+    },
+    {
+        "tag": "elemen cyber security",
+        "patterns": ["apa saja komponen cyber security","komponen cyber security yaitu","komponen cyber security"],
+        "reponses": ["1. Application security, 2. Information security, 3. Network security, 4. Disaster recovery/business continuity planning, 5. Operational security"],
+        "context_set": ""
+    },
+    {
+        "tag": "hacker",
+        "patterns": [ "apa itu hacker","hacker adalah","hacker yaitu","hacker"],
+        "responses": ["Hacker adalah orang dengan skill pemrogramannya mampu menerobos sistem keamanan komputer atau jaringan komputer untuk tujuan tertentu"],
+        "context_set": ""
+    },
+    {
+        "tag": "jenis hacker",
+        "patterns": ["macam-macam hacker","jenis hacker","apa saja hacker"],
+        "responses": ["Black hat hacker,white hat hacker, blue hat hacker, grey hat hacker, red hat hacker, script kiddies"],
+        "context_set": ""
+    },
+    {
+        "tag": "black hat hacker",
+        "patterns": ["apa itu black hat hacker","black hat hacker","definisi black hat hacker"],
+        "responses": ["Black Hat Hacker — Inilah jenis hacker yang paling dikenal dan harus Anda waspadai. Black Hat Hacker adalah hacker yang melakukan aktivitas ilegal. Mulai dari meretas sistem, mencuri data, menyebarkan malware, memata-matai, dan masih banyak lainnya."],
+        "context_set": ""
+    },
+    {
+        "tag": "white hat hacker",
+        "patterns": ["apa itu white hat hacker","white hat hacker adalah","definisi white hat hacker"],
+        "responses": ["White Hat Hacker  — Jenis hacker ini menggunakan keahlian meretasnya untuk mengevaluasi kelemahan suatu sistem. Sehingga keamananya bisa ditingkatkan lagi dan aman dari serangan hacker lain."],
+        "context_set": ""
+    },
+    {
+        "tag": "blue hat hacker",
+        "patterns": ["apa itu blue hat hacker","blue hat hacker","definisi blue hat hacker"],
+        "responses": ["Blue Hat Hacker  — Jenis ini hampir mirip dengan White Hat Hacker. Bedanya, Blue Hat Hacker adalah hacker pihak ketiga yang bekerjasama dengan perusahaan untuk menemukan titik lemah di sistemnya."],
+        "context_set": ""
+    },
+    {
+        "tag": "grey hat hacker",
+        "patterns": ["apa itu grey hat hacker","grey hat hacker adalah","apa arti dari grey hat hacker","grey hat hacker","arti grey hat hacker"],
+        "responses ": ["Hacker ini sering melakukan aktivitas tidak etis, tapi masih belum melanggar hukum. Misalnya, sengaja meretas suatu sistem dan hanya akan diperbaiki jika diberi imbalan."],
+        "context_set": ""
+    },
+    {
+        "tag": "red hat hacker",
+        "patterns": ["apa arti red hat hacker","red hat hacker adalah","red hat hacker yaitu","definisi red hat hacker","red hat hacker"],
+        "responses": [" Dikenal juga dengan sebutan Hacktivism, jenis hacker ini melakukan peretasan karena ingin menyampaikan pesan. Entah itu ideologis, politik, sosial, atau agama. Contoh Red Hacker yang terkenal adalah Anonymous atau WikiLeaks."],
+        "context_set": ""
+    },
+    {
+        "tag": "script kiddies",
+        "patterns": ["script kiddies","script kiddies adalah","script kiddies yaitu","apa itu script kiddies","definisi script kiddies","script kiddies adalah","kiddies"],
+        "responses": ["Jenis hacker ini hanya bisa melakukan aktivitasnya menggunakan script yang diciptakan oleh orang lain. Efeknya, Script Kiddies biasanya diremehkan di kalangan hacker. Namun, tindakan yang mereka lakukan tetap saja merugikan orang lain."],
+        "context_set": ""
+    },
+    {
+        "tag": "drive by attack",
+        "patterns": ["drice by attack","drive by attack adalah","drive by attack yaitu","penjelasan drive by attack","definisi drive by attack"],
+        "responses": ["Serangan Drive-by sebenarnya masih berkaitan dengan serangan malware. Serangan ini merupakan metode yang biasanya digunakan untuk melancarkan aksi serangan malware."],
+        "context_set": ""
+    },
+    {
+        "tag": "cross site scripting",
+        "patterns": ["apa itu cross site scripting","cross site scripting adalah","cross site scripting yaitu","cross site scripting","definisi cross site scripting"],
+        "responses": ["Serangan ini  memanfaatkan website yang tingkat keamanannya lemah sebagai sarana untuk mendapatkan data pengunjung."],
+        "context_set": ""
+    },
+    {
+        "tag": "boot sector virus",
+        "patterns": ["boot sector virus","boot sector virus adalah","boot sector virus yaitu","pengertian boot sector virus","definisi boot sector virus","arti boot sector virus"],
+        "responses": ["Boot Sector Virus Jenis virus ini langsung menyerang bagian terkecil dalam hardisk yang disebut dengan sektor boot. Sementara Boot Sector Virus biasanya bersembunyi di dalam komponen floppy disk. Dengan kemampuan tersebut, virus ini lebih diunggulkan karena dapat bergerak ke mana pun dan menginfeksi file apa pun yang ada pada hardisk tersebut"],
+        "context_set": ""
+    },
+    {
+        "tag": "browser hijacker",
+        "patterns": ["browser hijacker adalah","browser hijacker yaitu","browser hijacker","definisi browser hijacker","arti browser hijacker","apa itu browser hijacker"],
+        "responses": ["Program yang di buat dengan tujuan untuk mengubah atau menambah fungsi dari aplikasi browser, seperti google chroome, moozila firefox, dan lainnya. Dengan cara membuat pengarahan langsung dari situs tertentu saat aplikasi Internet Explorer sedang di jalankan"],
+        "context_set": ""
+    },
+    {
+        "tag": "ketua rekuitasi MBC",
+        "patterns": ["siapa ketua rekuitasi MBC","ketua rekuitasi","koordinator rekuitasi MBC","rekuitas MBC"],
+        "responses": ["Muhammad Rizki Anwar (ARM), 1101180078"],
+        "context_set": ""
+    },
+    {
+        "tag": "carding",
+        "patterns": ["carding adalah","carding yaitu","caring","definisi carding","arti carding","maksud carding"],
+        "responses": ["Carding Kejahatan di dunia maya dimana pelakunya berbelanja dengan menggunakan nomor dan identitas kartu kredit milik orang lain"],
+        "context_set": ""
+    },
+    {
+        "tag": "companion virus",
+        "patterns": ["companion virus","companion virus yaitu","arti dari companion virus","companion virus adalah","definisi companion virus"],
+        "responses": ["Companion Virus Jenis virus yang dapat mengganggu data-data pribadi kita. Virus ini sendiri sulit dideteksi, karena mempunyai kemampuan bersembunyi di dalam hardisk, dan bahkan dapat mengubah format data kita menjadi format data file palsu"],
+        "context_set": ""
+    },
+    {
+        "tag": "cookies",
+        "patterns": ["cookies","cookies yaitu","cookies adalah", "arti cookies","makusd cookies"],
+        "responses": ["Cookies File teks dalam hard disk yang diciptakan oleh situs yang baru kita kunjungi. Berisi catatan aktivitas dan informasi tentang komputer kita, sesuai kebutuhan si pengelola situs."],
+        "context_set": ""
+    },
+    {
+        "tag": "data gis",
+        "patterns": ["jenis data pada gis","data gis ada apa saja ","data gis","data yang digunakan pada gis","gis pakai data apa","jenis data pada gis","macam-macam data pada gis","prinsip data pada gis"],
+        "responses": ["secara prinsipnya, data terdiri dari dua jenis dalam gis, yaitu data spasial dan data nonspasial."],
+        "context_set": ""
+    },
+    {
+        "tag": "data spasial gis",
+        "patterns": ["jenis data spasial gis","apa itu data spasial","data spasial gis","data spasial gis untuk apa ","penjelasan data spasial pada gis","data spasial untuk gis","jenis data spasial pada gis","data spasial di gis"],
+        "responses": ["Data spasial merupakan perwujudan nyata suatu daerah yang ada di permukaan bumi. Biasanya dipresentasikan dalam bentuk peta, dengan gambar dalam bentuk format digital dan disimpan pada bentuk image (raster) yang memiliki nilai tertentu."],
+        "context_set": ""
+    },
+    {
+        "tag": "data non spasial gis",
+        "patterns": ["jenis data non spasial gis","apa itu data non spasial ","data non spasial gis","data non spasial gis untuk apa ","penjelasan data non spasial pada gis","data non spasial untuk gis","jenis data non spasial pada gis","data non spasial di gis"],
+        "responses": ["Data non spasial ialah data yang berbentuk tabel yang mana tabel ini mempunyai isi informasi yang dimiliki oleh obyek dalam data spasial. Data itu berbentuk data tabular yang satu sama lain di integrasikan dengan data spasial yang ada."],
+        "context_set": ""
+    },
+    {
+        "tag": "komponen manusia pada gis",
+        "patterns": ["yang dimaksud dengan komponen manusia pada gis","mengapa manusia di gis penting ","penjelasan manusia pada komponen gis","komponen manusia gis","komponen manusia di gis","mengapa manusia terdapat pada komponen di gis ", "elemen manusia pada kepentingan gis","mengapa manusia penting dalam gis "],
+        "responses": ["Manusia merupakan elemen paling penting dalam sistem informasi geografis karena manusia merupakan perancang dan pengguna SIG. Dalam penggunaan sistem informasi geografis terdapat tingkatan sama halnya dengan sistem informasi lainnya, dari tingkat spesialis teknis yang membuat desain serta mengolah sistem, sehingga bagi pengguna yang menggunakan SIG dapat terbantu dalam pekerjaanya sehari-hari."],
+        "context_set": ""
+    },
+    {
+        "tag": "komponen metode pada gis",
+        "patterns": ["yang dimaksud dengan komponen metode pada gis","mengapa metode di gis penting ","penjelasan metode pada komponen gis","komponen metode gis","komponen metode di gis","mengapa metode terdapat pada komponen di gis ","elemen metode pada kepentingan gis","mengapa metode penting dalam gis "],
+        "responses": ["Setiap masalah dalam metode yang digunakan dalam SIG akan berbeda. SIG yang baik terkait dengan desain dan aspek aslinya."],
+        "context_set": ""
+    },
+    {
+        "tag": "ruang lingkup gis",
+        "patterns": ["apa itu ruang lingkup gis","ruang lingkup gis","apa saja ruang lingkup pada gis ","ruang lingkup di gis","macam-macam ruang lingkup di gis","ruang lingkup pada gis","jenis ruang lingkup di gis","definisi ruang lingkup di gis"],
+        "responses": ["input data, manipulasidata, manajemen data, query dan analisis, visualisasi"],
+        "context_set": ""
+    },
+    {
+        "tag": "input data gis",
+        "patterns": ["apa itu input data gis","input data gis","yang dimaksud dengan input data pada gis","input data di gis","penjelasan input data di gis","input data pada gis","proses input data di gis","definisi ruang lingkup input data di gis"],
+        "responses": ["Proses input data digunakan untuk memasukkan data daya spasial dan non spasial. Data spasial dapat berupa peta analog. SIG harus menggunakan peta digital sehingga peta analog harus diubah menjadi peta digital dengan menggunakan alat digitizer. Selain itu, proses digitasi juga dapat dilakukan dengan proses overlay dengan memindai peta analog."],
+        "context_set": ""
+    },
+    {
+        "tag": "manipulasi data gis",
+        "patterns": ["apa itu manipulasi data gis","manipulasi data gis","yang dimaksud dengan manipulasi data pada gis","manipulasi data di gis","penjelasan manipulasi data di gis","manipulasi data pada gis","proses manipulasi data di gis","definisi ruang lingkup manipulasi data di gis"],
+        "responses": ["Tipe data yang dibutuhkan oleh sistem informasi geografis mungkin harus dimanipulasi agar sesuai dengan sistem yang digunakan. Oleh karena itu, SIG mampu melakukan fungsi editing baik untuk data spasial maupun non spasial."],
+        "context_set": ""
+    },
+    {
+        "tag": "manajemen data gis",
+        "patterns": ["apa itu manajemen data gis","manajemen data gis","yang dimaksud dengan manajemen data pada gis","manajemen data di gis","penjelasan manajemen data di gis","manajemen data pada gis","proses manajemen data di gis","definisi ruang lingkup manajemen data di gis"],
+        "responses": ["Apabila data spasial sudah diinput maka proses selanjutnya adalah pengolahan data non spasial. Pemrosesan data non-spasial mencakup penggunaan DBMS untuk menyimpan data yang besar."],
+        "context_set": ""
+    },
+    {
+        "tag": "query dan analisis gis",
+        "patterns": ["apa itu query dan analisis gis","query dan analisis gis","yang dimaksud dengan query dan analisis pada gis","query dan analisis di gis","penjelasan query dan analisis di gis","query dan analisis pada gis","query dan analisis data di gis","query dan analisis di gis"],
+        "responses": ["Query yaitu proses analisis yang dilaksanakan secara tabular. Secara fundamental SIG dapat melakukan dua jenis analisis data, yaitu analisis proximity dan overlay."],
+        "context_set": ""
+    },
+    {
+        "tag": "analisis proximity gis",
+        "patterns": ["apa itu analisis proximity gis","analisis proximity gis","yang dimaksud dengan analisis proximity pada gis","analisis proximity di gis","penjelasan analisis proximity di gis","analisis proximity pada gis","analisis proximity data di gis","analisis proximity di gis"],
+        "responses": ["Analisis proximity ialah menganalisis geografis yang berbasis jarak antar layer. Sistem informasi geografis menggunakan proses buffring untuk menentukan dekatnya keterkaitan antar sifat bagian yang ada."],
+        "context_set": ""
+    },
+    {
+        "tag": "analisis overlay gis",
+        "patterns": ["apa itu analisis overlay gis","analisis overlay gis","yang dimaksud dengan analisis overlay pada gis","analisis overlay di gis","penjelasan analisis overlay di gis","analisis overlay pada gis","analisis overlay data di gis","analisis overlay di gis"],
+        "responses": ["Overlay merupakan proses penyatuan data pada lapisan layer yang berbeda. Overlay ialah oprasi visual yang membutuhkan lebih dari satu layer yang kemudian disatukan dalam bentuk fisik."],
+        "context_set": ""
+    },
+    {
+        "tag": "visualisai gis",
+        "patterns": ["apa itu visualisai gis","visualisai","yang dimaksud dengan visualisai pada gis","visualisai di gis","penjelasan visualisai di gis","visualisai pada gis","proses visualisai di gis","definisi ruang lingkup visualisai di gis"],
+        "responses": ["Untuk beberapa jenis operasi geografis, hasil akhirnya paling baik ditampilkan dalam bentuk peta atau grafik. Peta sangat efektif untuk menyimpan dan menyediakan informasi geografis."],
+        "context_set": ""
+    },
+    {
+        "tag" : "nama bot",
+        "patterns" : ["siapa nama bot","bot nama kamu siapa","apakah bot memiliki nama","bot","nama nya siapa bot"],
+        "responses" : ["Nama saya adalah MBC_Bot"],
+        "context_set" : ""
+    },
+    {
+        "tag": "kabar",
+        "patterns": ["apa kabar bot","bagaimana keadaan sekarang","bot sehat","bot lagi sakit","kabar bot","kabar mu","bagaimana kabarmu"],
+        "responses": ["Hai kabar bot sehat, jaga kesehatan ya kalian."],
+        "context_set": ""
+    },
+    {
+        "tag": "pacar",
+        "patterns": ["punya pacar gak","ada pacar","mana pacar","pacar mana","ga ada pacar","siapa pacar","dimana pacar"],
+        "responses": ["Bot jomblo nich."],
+        "context_set": ""
+    },
+    {
+        "tag": "alamat",
+        "patterns": ["alamatku dimana","dimana alamat","dimana alamatmu","dimana alamatku","alamat","alamatku adalah","alamatmu dimana"],
+        "responses": ["Alamatku di bojongsoang."],
+        "context_set": ""
+    },
+    {
+        "tag": "sakit",
+        "patterns": ["ada yang sakit","sakit apa","lagi sakit","siapa yang sakit","siapa sakit","sakit ga","bagaimana bisa sakit"],
+        "responses": ["Sakit melihatmu dengannya."],
+        "context_set": ""
+    },
+    {
+        "tag": "makan",
+        "patterns": ["makan apa","siapa yang makan","lagi makan apa","makan apasih","makan apa ya","mau makan ga","lapar ga"],
+        "responses": ["Makan ramen enak nih."],
+        "context_set": ""
+    },
+    {
+        "tag": "minum",
+        "patterns": ["minum apa","siapa yang minum","lagi minum apa","minum apasih","minum apa ya","mau minum ga","haus ga"],
+        "responses": ["Minum yang seger seger enak juga."],
+        "context_set": ""
+    },
+    {
+        "tag": "tidur",
+        "patterns": ["ngantuk ga","tidur yuk","lagi tidur ya","kenapa harus tidur","sudah malam","tidur yang teratur ya","ga boleh tidur larut"],
+        "responses": ["Tidur harus teratur ya biar kamu ga sakit."],
+        "context_set": ""
+    },
+    {
+        "tag": "curhat",
+        "patterns": ["mau curhat ga","curhat apa","curhat dimana","curhat yuk","boleh curhat ga","curhat","boleh curhat"],
+        "responses": ["Curhat aja daripada dipendam sendiri nanti kamu stress."],
+        "context_set": ""
+    },
+    {
+        "tag": "sombong",
+        "patterns": ["kamu sombong","kenapa kamu sombong","sombong banget","sombong ya sekarang","kenapa sombong","sombong","siapa yang sombong"],
+        "responses": ["Siapa juga yang sombong, aku mah ramah banget anaknya."],
+        "context_set": ""
+    },
+    {
+        "tag": "masak",
+        "patterns": ["lagi masak apa","masak apa hari ini","masak apa","masak yuk","masakin apa ya","masak masak","masak"],
+        "responses": ["Masak apapun yang kamu suka."],
+        "context_set": ""
+    },
+    {
+        "tag": "pergi",
+        "patterns": ["mau pergi kemana","pergi kemana","pergi yuk","pergi ga","pergi","ikut ga","ayo pergi"],
+        "responses": ["Pergi kemanapun asalkan bersama."],
+        "context_set": ""
+    },
+    {
+        "tag" : "cipta",
+        "patterns" : ["siapa pembuat bot","siapa yang membuat bot","siapa yang ciptain bot","cipta bot","pembuatan bot","siapa yang membuat bot"],
+        "responses" : ["Pencipta Bot: \n 1. Ghanes Mahesa \n 2. Muhamad Afif Rizki \n 3. Retno Fauziah Istiqomah \n 4. Cantika Candra Rini \n 5. Dias Daffa Wiwaha \n 6. Satria Wasisa \n 7. Nurul Febri Annisa."],
+        "context_set" : ""
+    },
+    {
+        "tag": "cipta web",
+        "patterns" : ["siapa yang membuat web rekrutasimbc","rekrutasimbc","siapa pembuat web rekrutasimbc"],
+        "responses" : ["Yang membuat web rekrutasimbc: \n 1.Rafli Aulia Hafiz \n 2. Nita Nur Qorinah \n 3. Hubert Igor \n 4. Fatma Nur Afifah \n 5 Rika Jesicha \n 6. Indah Ratu Aulia \n 7. Muhammad Zidan \n 8. Fadly Firmansyah"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "cipta game",
+        "patterns" : ["siapa yang menciptakan game widespread","siapa yang membuat game widespread","widespread"],
+        "reponses": ["Yang membuat game Widespread : \n 1. M. Nizal Adithya \n 2. Revin Pasya \n 3. Aulia Rusyda Husna \n 4. Yoga Marta \n 5. Azima Azzahra \n 5. Aisha Hijranie Putri"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "denah telkom",
+        "patterns" : ["siapa yang membuat denah telkom di web rekrutasimbc","siapa pembuat denah telkom rekrutasimbc","siapa yang membuat denah rekrutasimbc","denah telkom di web rekrutasimbc","denah di web rekrutasimbc"],
+        "responses" : ["Yang membuat denah Universitas Telkom : \n 1. Nigo Wisnu \n 2. Virginia Rosaline \n 3. Muhammad Azriel \n 4. Natasya Nurul Putri \n 5. Mahardika Hanif"],
+        "context_set" : ""
+    },
+    {
+        "tag" : "kode pak basuki",
+        "patterns" : ["kode dosen pak basuki rahmat","dosen basuki rahmat","pak basuki rahmat","kode basuki rahmat"],
+        "responses" : ["Kode dosen Dr.Basuki Rahmat S.T.,M.T (BAS)"],
+        "context_set" : ""
+    },
+    {
+        "tag": "nyanyi",
+        "patterns": ["mau nanyi gak","bisa nyanyi gak","nyanyi yuk","boleh nyanyi gak","nyanyi","mau nyanyi","ayo nyanyi"],
+        "responses": ["Aku bisa nyanyi loh tapi aku pemalu."],
+        "context_set": ""
+    },
+    {
+        "tag": "sekolah",
+        "patterns": ["kamu sekolah dimana","sekolah dimana","sekolah ga","dari sekolah mana","sekolahnya dimana","sekolah","nama sekolah"],
+        "responses": ["Hai aku adalah telyutizen."],
+        "context_set": ""
+        
+    },
+    {
+        "tag": "umur",
+        "patterns": ["kamu umur berapa","umurnya berapa","berapa umurmu","umurku adalah","berapa umurku","umur","jumlah umur"],
+        "responses": ["Kepo deh, yang pasti aku masih muda dongg."],
+        "context_set": ""
+    },
+    {
+        "tag": "fakultas",
+        "patterns": ["kamu dari fakutas mana","fakultas apa","kamu fakultas apa","fakultasku","fakultasmu","dari fakultas mana","fakultas"],
+        "responses": ["Aku berasal dari fakultas belakang."],
+        "context_set": ""
+    },
+    {
+        "tag": "sayang",
+        "patterns": ["kamu sayang aku gak","sayang aku","sayang kamu","apakah kamu sayang","sayang siapa","siapa sayang","sayang"],
+        "responses": ["Aku sayang semuanya."],
+        "context_set": ""
+    },
+    {        
+        "tag": "kangen",
+        "patterns": ["kamu kangen aku gak","kangen aku","kangen kamu","apakah kamu kangen","kangen siapa","siapa kangen","kangen ya"],
+        "responses": ["Ya pasti kangen kalian lah, meet up yuk."],
+        "context_set": ""
+    },
+    {   
+        "tag": "kenalan",
+        "patterns": ["kamu kenal aku gak","kenalan yuk","boleh kenalan gak","apa kita boleh kenalan","kenalan","boleh kenalan","aku kenal kamu gak"],
+        "responses": ["Sebenarnya kita udah kenal."],
+        "context_set": ""
+    },
+    {
+        "tag": "nonton",
+        "patterns": ["lagi nonton apa","nonton apa","nonton yuk","mau nonton gak","nobar yuk","nonton bareng yuk","mau nobar gak"],
+        "responses": ["Nonton orang ngoding biar jago ngoding."],
+        "context_set": ""
+    },
+    {
+        "tag": "cybersquatting",
+        "patterns": ["cybersquatting","apa itu cybersquatting","cybersquatting adalah","arti cybersquatting","cybersquatting yaitu"],
+        "responses": ["CyberSquatting Kejahatan di dunia maya dimana pelakunya mendaftarkan domain dengan nama suatu perusahaan lalu menjualnya kepada perusahaan tersebut dengan harga tinggi"],
+        "context_set": ""
+    },
+    {
+        "tag": "cyberwarfare",
+        "patterns": ["cyberwarfare","cyberwarfare adalah","maksud cyberwarfare","definisi cyberwarfare","cyberwarfare yaitu","arti dari cyberwarfare"],
+        "responses": ["Cyberwarfare perang yang dilakukan didunia maya (cyber Space) dengan menggunakan teknologi canggih dan jaringan nircabel/wifi"],
+        "context_set": ""
+    },
+    {
+        "tag": "data forgery",
+        "patterns": ["apa itu data forgery","definisi data forgery","data forgery","maksud data forgery","data forgery adalah"],
+        "responses": ["Data Forgery Kejahatan dengan memalsukan data pada dokumen-dokumen penting yang tersimpan sebagai scripless document melalui Internet. Kejahatan ini biasanya ditujukan pada dokumen-dokumen e-commerce dengan membuat seolah-olah terjadi 'salah ketik' yang pada akhirnya akan menguntungkan pelaku karena korban akan memasukkan data pribadi dan nomor kartu kredit yang dapat saja disalah gunakan."],
+        "context_set": ""
+    },
+    {
+        "tag": "deface",
+        "patterns": ["apa itu deface","deface","deface yaitu","definisi deface","pengertian deface","arti deface","deface adalah"],
+        "responses": ["Deface Tindakan menyusup ke suatu situs, lalu mengubah tampilan muka dari situs tersebut dengan maksud dan tujuan tertentu."],
+        "context_set": ""
+    },
+    {
+        "tag": "destructive devices",
+        "patterns": ["destructive devices","apa itu destructive devices","pengertian destructive devices","destructive devices adalah","destructive devices yaitu"],
+        "responses": ["Destructive Devices Program atau software berisi virus dimana tujuannya adalah untuk merusak atau menghancurkan data-data di dalam komputer korban. Beberapa yang termasuk dalam program ini adalah Worms, Trojan Horse, Nukes, Email Bombs, dan lain-lain."],
+        "context_set": ""
+    },
+    {
+        "tag": "dicitionary attack",
+        "patterns": ["apa itu dicitionary attack","dicitionary attack","dicitionary adalah","maksud dicitionary attack","arti dicitionary attack","definisi dicitionary attack","makna dicitionary attack"],
+        "responses": ["Dictionary Attack Serangan yang digunakan untuk menduga key dari suatu ciphertext dengan mencoba berbagai kata kunci yang umum digunakan oleh manusia, biasanya kata-kata dalam kamus"],
+        "context_set": ""
+    },
+    {
+        "tag": "direct action virus",
+        "patterns": ["apa itu direct action virus","direct action virus adalah","direct action virus","arti direct action virus","makna direct action virus"],
+        "responses": ["Jenis virus yang aktif secara otomatis saat sistem operasi komputer dinyalakan. Bahaya yang lain dari virus ini adalah mampu menginfeksi perangkat eksternal seperti flashdisk dan lainnya."],
+        "context_set": ""
+    },
+    {
+        "tag" : "asal daerah",
+        "patterns" : ["asal daerah ca as big data dari mana", "asal daerah ca as big data", "asal daerah yang bikin bot", "asal daerah yang buat chatbot", "asal daerah anak big data", "asal daerah developer bot", "yang bikin bot darimana asalnya"],
+        "responses" : ["Ghanes Mahesa : Tangerang Selatan \n Cantika Candra Rini : Tangerang Selatan \n Retno Fauziah Istiqomah : Pontianak, Kalimantan Barat \n Muhammad Afif Rizki : Bukit Tinggi \n Satria Wasisa : Semarang \n Dias Daffa Wiwaha : Bandung \n Nurul Febri : Jambi"],
+        "context_set" : ""
+    },
+    {
+        "tag": "cara bikin bot",
+        "patterns": ["cara bikin bot","bikin bot gimana","gimana cara buat kamu","kok kamu bisa bicara","kok bot bisa disini","gimana cara buat kamu","ajarin cara bikin kamu dong","bikin kamu gimana bot","belajar bikin kamu gimana","bikin bot berapa lama","bikin bot susah gak"],
+        "responses": ["Hmm butuh banyak ilmu yang di pelajari dan tenaga yang terkuras sih kak, makanya yang buat aku gak cuman satu orang. tapi pasti kakak bisa kalau belajar dengan tekun."],
+        "context_set": ""
+    },
+    {
+        "tag": "ca as jomblo ",
+        "patterns": ["mau punya pacar","ada ca as jomblo gak","mau cari ca as jomblo","ca as jomblo","list ca as yang jomblo","ca as yang jomblo","ca as yang nyari pacar","calon asisten mbc yang jomblo siapa","ada calon asisten yang jomblo gak","bot aku butuh pacar"],
+        "responses": ["wah maaf kak bot gak hafal, tapi semoga bisa ketemu yang terbaik untuk kakak ya."],
+        "context_set": ""
+    },
+    {
+        "tag": "Asisten cantik",
+        "patterns": ["asisten tercantik di mbc","asisten cantik mbc","asisten paling cantik di mbc","asisten tercantik mbc","siapa asisten tercantik di mbc","kasih tau aku asisten tercantik di mbc","kasih tau aku asisten paling cantik di mbc","asisten yang cantiknya kebangetan","asisten yang cantik banget di mbc","asisten cantik di mbc"],
+        "responses": ["semua asisten perempuan di mbc sudah pasti cantik dong kak"],
+        "context_set": ""
+    },
+    {
+        "tag": "Asisten ganteng",
+        "patterns": ["asisten terganteng di mbc","asisten ganteng mbc","asisten paling ganteng di mbc","asisten terganteng mbc","siapa asisten terganteng di mbc","kasih tau aku asisten terganteng di mbc","kasih tau aku asisten paling ganteng di mbc","asisten yang gantengnya kebangetan","asisten yang ganteng banget di mbc","asisten ganteng di mbc "],
+        "responses": ["semua asisten laki2 di mbc sudah pasti ganteng dong kak"],
+        "context_set": ""
+    },
+    {
+        "tag": "Asisten pintar",
+        "patterns": ["asisten pintar di mbc","asisten pintar mbc","asisten paling pintar di mbc","asisten terpintar mbc","siapa asisten terpintar di mbc","kasih tau aku asisten terpintar di mbc","kasih tau aku asisten paling pintar di mbc","asisten yang pintarnya kebangetan","asisten yang pintar banget di mbc","asisten pintar di mbc "],
+        "responses": ["semua asisten yang ada di mbc sudah pasti pintar dong kak"],
+        "context_set": ""
+    },
+    {
+    
+        "tag": "cybersquatting",
+        "patterns": ["cybersquatting","apa itu cybersquatting","cybersquatting adalah","arti cybersquatting","cybersquatting yaitu"], 
+        "responses": ["CyberSquatting Kejahatan di dunia maya dimana pelakunya mendaftarkan domain dengan nama suatu perusahaan lalu menjualnya kepada perusahaan tersebut dengan harga tinggi"],
+        "context_set": ""
+    },
+    {
+        "tag": "cyberwarfare",
+        "patterns": ["cyberwarfare","cyberwarfare adalah","maksud cyberwarfare","definisi cyberwarfare"," cyberwarfare yaitu","arti dari cyberwarfare"],
+        "responses": ["Cyberwarfare perang yang dilakukan didunia maya (cyber Space) dengan menggunakan teknologi canggih dan jaringan nircabel/wifi"],
+        "context_set": ""
+    },
+    {       
+        "tag": "pembuat",
+        "patterns": ["siapa yang membuat bot ini","pembuat bot ini","orang yang membuat","siapa aja sih yang buat chat bot ini","siapa yang buat kamu","adminnya siapa aja"],
+        "responses": ["Cantika Candra R (1101192447), Retno Fauziah (1303204088),Nurul Febri Anisa (1101194105),M Afif Rizki(1101194226),Dias Daffa W(1101201482), Ghanes Mahesa (1101193335), Satria Wasisa (1101190324)"],
+        "context_set": ""
+    },
+    {
+        "tag": "dicitionary attack",
+        "patterns": ["apa itu dicitionary attack","dicitionary attack","dicitionary adalah","maksud dicitionary attack","arti dicitionary attack","definisi dicitionary attack","makna dicitionary attack"],
+        "responses": ["Dictionary Attack Serangan yang digunakan untuk menduga key dari suatu ciphertext dengan mencoba berbagai kata kunci yang umum digunakan oleh manusia, biasanya kata-kata dalam kamus"],
+        "context_set": ""
+    },
+    {
+        "tag": "direct action virus",
+        "patterns": ["apa itu direct action virus","direct action virus adalah","direct action virus", "arti direct action virus","makna direct action virus"],
+        "responses": ["Jenis virus yang aktif secara otomatis saat sistem operasi komputer dinyalakan. Bahaya yang lain dari virus ini adalah mampu menginfeksi perangkat eksternal seperti flashdisk dan lainnya."],
+        "context_set": ""
+    },
+    {
+        "tag": "email worm",
+        "patterns": ["apa itu email worm","email worm","definisi email worm","maksud email worm","email worm adalah","pengertian email worm","email worm yaitu"],
+        "responses": ["Email Worm Jenis worm yang menginfeksi pesan email. Worm email menembus link HTML atau lampiran email yang akan mengirim pengguna ke sebuah situs web yang terinfeksi. Jika pengguna membuka link HTML atau lampiran email, email worm akan menginfeksi komputer. Worm jenis ini juga dapat mencuri email dan menggunakan alamat email pengguna untuk mengirim link bervirus ke orang-orang yang terdapat dalam daftar kontak."],
+        "context_set": ""
+    },         
+    {
+        "tag": "enkripsi",
+        "patterns": ["apa itu enkripsi","enkripsi","enkripsi adalah","engkripsi yaitu","definisi enkripsi","pengertian enkripsi"],
+        "responses": ["Enkripsi Teknik mengamankan suatu informasi dengan membuat informasi tersebut tidak dapat dibaca tanpa bantuan pengetahuan khusus."],
+        "context_set": ""
+    },
+    {
+        "tag": "fat virus",
+        "patterns": ["apa itu fat virus","pengertian fat virus","fat virus adalah","fat virus","fat virus yaitu","pengertian fat virtus","maksud fat virus"],
+        "responses": ["FAT Virus Jenis virus komputer yang mempunyai kemampuan untuk merusak file yang ada pada perangkat komputer kita. Selain itu, kemampuan virus ini yang sangat berbahaya adalah dapat dengan mudah menyebunyikan berbagai file penting kita, sehingga seakan-akan file tersebut hilang atau telah terhapus"],
+        "context_set": ""
+    },
+    {
+        "tag": "file sharing network",
+        "patterns": ["apa itu file sharing network","file sharing network adalah","file sharing network","pengertian file sharing netwrok","definisi file sharing network","maksud file sharing network","file sharing network yaitu"],
+        "responses": ["File-sharing Network Jenis worm yang membuat replika diri mereka sendiri di dalam folder sharing. Worm muncul dengan nama file yang tidak berbahaya, seperti file dengan nama lagu atau video musik populer. Worm jenis ini memiliki kemampuan men-download program berbahaya pada sistem komputer. Program berbahaya termasuk diantaranya adalah pencuri password dan backdoors."],
+        "context_set": ""
+    },
+    {
+        "tag": "firewall",
+        "patterns": ["apa itu firewall","pengertian firewall","definisi firewall","firewall","firewall yaitu"],
+        "responses": ["Firewall Peranti lunak untuk memagari sebuah komputer yang terhubung ke jaringan/internet agar tak mudah disusupi pihak luar."],
+        "context_set": ""
+    },
+    {
+        "tag": "hash algorthm",
+        "patterns": ["apa itu hash alghorithm","defnisi hash algorithm","hash algorithm","hash algorithm yaitu","hash algorithm adalah","hash algorithm merupakan"],
+        "responses": ["Hash Algorithm Teknik algoritma kriptografi yang tidak memerlukan key. Algoritma ini bersifat satu arah dimana jika kita memasukkan data maka akan menghasilkan sebuah checksum atau fingerprint dari data tersebut."],
+        "context_set": ""
+    },
+    {
+        "tag": "internet worm",
+        "patterns": ["pengertian internet worm","internet worm adalah","internet worm yaitu","definisi internet worm","maksud internet worm","internet worm"],
+        "responses": ["Internet Worm Jenis Worm yang bekerja dengan mencoba menemukan sistem komputer yang lemah. Setelah menemukan koneksi yang stabil, internet worm akan mendapatkan akses penuh ke sistem komputer. Internet worm juga memiliki kemampuan untuk menginstal program dan mengirim paket data ke sistem komputer yang terinfeksi"],
+        "context_set": ""
+    },
+    {
+        "tag": "ip spoofing",
+        "patterns": ["ip spoofing adalah","ip spoofing yaitu","pengertian ip spoofing","definisi ip spoofing","arti ip spoofing","maksud ip spoofing"],
+        "responses": ["IP Spoofing Teknik di mana penyerang membuat IP yang memiliki alamat IP sumber palsu. IP dipalsukan dengan informasi palsu untuk menyembunyikan identitas pengirim atau membantunya meluncurkan serangan licik seperti DDoS"],
+        "context_set": ""
+    },
+    {
+        "tag": "kriptografi",
+        "patterns": ["kriptografi","kripto grafi adalah","kriptografi yaitu","definisi kriptografi","arti kriptografi"],
+        "responses": ["Kriptografi Suatu ilmu yang mempelajari bagaimana cara menjaga agar data atau pesan tetap aman saat dikirimkan, dari pengirim ke penerima tanpa mengalami gangguan dari pihak ketiga"],
+        "context_set": ""
+    },
+    {
+        "tag": "macro virus",
+        "patterns": ["macro virus","macro virus adalah","macro virus yaitu","pengertian macro virus","definisi macro virus","apa itu macro virus"],
+        "responses": ["Macro Virus Jenis virus yang mengganggu sekaligus menginfeksi file-file makro seperti .docm, .xls, .pps dan sejenisnya. Virus ini dibuat dengan bahasa pemrograman suatu aplikasi, justru hal itu dinilai lebih sulit dibanding dengan bahasa pemrograman suatu sistem operasi. Untuk penyebarannya sendiri, Macro Virus sering kali datang dari email-email yang pengguna terima."],
+        "context_set": ""
+    },
+    {
+        "tag": "password cracker",
+        "patterns": ["apa itu pasword cracker","password cracker adalah","password cracker","definisi password craker","password cracker merupakan"],
+        "responses": ["Password Cracker Suatu tindakan mencuri password orang lain dengan menggunakan suatu program yang dapat membuka enkripsi password. Tindakan ini juga sering dilakukan untuk menonaktifkan suatu sistem pengamanan password."],
+        "context_set": ""
+    },
+    {
+        "tag": "spoofing",
+        "patterns": ["apa itu spoofing","spoofing","spoofing adalah","spoofing  yaitu","spoofing merupakan"],
+        "responses": ["Spoofing Salah-satu kejahatan cyber yang dimana cara kerjanya yaitu dengan cara mengakses kesuatu perangkat baik berupa komputer maupun perangkat sejenisnya secara tidak sah, dan kemudian si penyerang (Hacker) masuk dengan berpura-pura bahwa dirinya adalah user yang dapat dipercaya."],
+        "context_set": ""
+    },
+    {
+        "tag": "trojan horse",
+        "patterns": ["apa itu trojan horse","trojan horse adalah","trojan horse","trojan horse merupakan","trojan horse yaitu"],
+        "responses": ["Trojan Horse Program perusak yang menyamar sebagai program yang tidak berbahaya. Berbeda dengan virus, trojan horse tidak selalu berusaha menggandakan diri dan bersifat merusak."],
+        "context_set": ""
+    },
+    {
+        "tag": "kesan pesan mbc",
+        "patterns": ["bot seneng gak di mbc","kesan pesan bot di mbc","kesan pesan bot buat mbc","pesan bot buat mbc","ada yang mau bot bilang gak ke mbc","ada yang mau bot sampein gak ke mbc","apa yang mau disampein ke mbc","bot mau ngomong sesuatu gak ke mbc","apa yang bot rasain bisa diciptain sama anak ca as mbc","sesuatu yang ingin bot sampaikan"],
+        "responses": ["Terimakasih untuk seluruh ca as yang sudah berkontribusi membuat webiste ini dan membuat bot. kalian semua hebat dan sudah melakukan yang terbaik. terimakasih juga untuk kakak2 asisten yang sudah membimbing para ca as. semoga mbc semakin maju"],
+        "context_set": ""
+    },
+    {
+        "tag":"pengertian cybersecurity",
+        "patterns":["cybersecurity","cybersecurity adalah","definisi cybersecurity","pengertian cybersecurity"],
+        "responses":"Cyber security adalah tindakan yang dilakukan untuk melindungi sistem komputer dari serangan atau akses ilegal.",
+        "context_set" : ""
+    }
+]
+}
